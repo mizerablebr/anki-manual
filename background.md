@@ -16,7 +16,7 @@ Qualquer pessoa que precisa lembrar de algo em sua rotina diária pode se benefi
 
 -   até mesmo praticando acordes de violão
 
-Há dois conceitos simples por trás do Anki: 'estando recordação ativa' e
+Há dois conceitos simples por trás do Anki: 'teste de recordação ativa' e
 'repetição espaçada'. Eles não são conhecidos pela maioria dos estudantes, apesar de terem sido descritos na literatura científica por tantos anos. Compreender como eles funcionam irá fazê-lo um estudante mais eficaz.
 
 Teste de Recordação Ativa
@@ -30,7 +30,7 @@ Teste de Recordação Ativa
 
 Você provavelmente encontrou por anos testes de recordação ativa na sua escola sem ao menos perceber isto. Quando bons professores lhe atribuem uma lista de perguntas após a leitura de um artigo, ou o submetem a um teste semanal de verificação de progresso, eles não estão fazendo isso simplesmente para verificar se você entendeu ou não o material. Por testá-lo, eles estão aumentando as chances de que você estará apto a recordar o material no futuro.
 
-Uma boa forma de integrar o teste de recordação ativa em seus estudos é com o uso de 'cartões de memória'. Com cartões de memória tradicionais, você escreve uma pergunta de um lado do cartão e a resposta no outro lado. Por não virar o cartão até que você tenha pensado sobre a resposta você poder aprender coisas mais efetivamente do que a observação passiva permite.
+Uma boa forma de integrar o teste de recordação ativa em seus estudos é com o uso de 'fichas de estudo'. Com fichas de estudo tradicionais, você escreve uma pergunta de um lado do cartão e a resposta no outro lado. Por não virar o cartão até que você tenha pensado sobre a resposta você poder aprender coisas mais efetivamente do que a observação passiva permite.
 
 Use ou perca
 -----------------
@@ -39,73 +39,29 @@ Nossos cérebros são máquinas eficientes, e eles rapidamente descartam informa
 
 A política do nosso cérebro de "use ou perca" se aplica a tudo o que aprendemos. Se passarmos uma tarde inteira memorizando alguns termos científicos e não pensarmos sobre aquele material por duas semanas, é provável que esqueceremos grande parte. De fato, estudos tem demonstrado que nós esquecemos cerca de 75% do material aprendido dentro do período de 48 horas. Isso pode parece bem desanimador quando você precisa aprender um monte de informações.
 
-The solution is simple, however: 'review'. By reviewing newly-learnt
-information, we can greatly reduce forgetting.
+A solução, entretanto, é simples: 'revisar'. Por revisando informações recentemente aprendidas nós podemos reduzir bastante o esquecimento.
 
-The only problem is that traditionally review was not very practical. If
-you are using paper flashcards, it’s easy to flick through all of them
-if you only have 30 of them to review, but as the number grows to 300 or
-3000, it quickly becomes unwieldy.
+O único problema é que a revisão tradicional não era muito prática. Se você está usando fichas de estudo em papel, é fácil manusear todos rapidamente se você tem apenas 30 deles para revisar, mas a medida que o número cresce para 300 ou 3000, rapidamente isso fica desajeitado.
 
-Spaced Repetition
+Repetição espaçada
 -----------------
 
-The 'spacing effect' was reported by a German psychologist in 1885. He
-observed that we tend to remember things more effectively if we spread
-reviews out over time, instead of studying multiple times in one
-session. Since the 1930s there have been a number of proposals for
-utilizing the spacing effect to improve learning, in what has come to be
-called 'spaced repetition'.
+O 'efeito do espaçamento' foi relatado por um psicólogo alemão em 1885. Ele observou que nós tendemos a recodar algo com mais eficiência se nós espalharmos as revisões no tempo ao invés de estudar várias vezes em uma única sessão. Desde a década de 30 houve várias propostas de utilização do efeito do espaçamento para melhorar o aprendizado, algo que passou a ser conhecido como 'repetição espaçada'.
 
-One example is in 1972, when a German scientist called Sebastian Leitner
-popularized a method of spaced repetition with paper flashcards. By
-separating the paper cards up into a series of boxes, and moving the
-cards to a different box on each successful or unsuccessful review, it
-was possible to see at a glance a rough estimate of how well a card was
-known and when it should be reviewed again. This was a great improvement
-over a single box of cards, and it has been widely adopted by
-computerized flashcard software. It is a rather rough approach however,
-as it can’t give you an exact date on which you should review something
-again, and it doesn’t cope very well with material of varying
-difficulty.
+Um exemplo vem de 1972, quando um cientista alemão chamado Sebastian Leitner popularizou o método da repetição espaçada com fichas de estudo. Ao separar as fichas de papel em uma série de caixas, movendo a ficha para uma caixa diferente a cada sucesso ou insucesso na revisão, foi possível verificar de relance uma estimativa superficial de o quão bem uma ficha foi reconhecida e quando ela deve ser revisada novamente. Esse foi um grande aperfeiçoamento considerando o modelo com apenas uma caixa de fichas, e tem sido largamente adotado por programas de computador de fichas de estudo computadorizadas. Entretanto essa é uma abordagem bastante grosseira, uma vez que ela não pode dizer com exatidão o data em que você deve novamente revisar algo, e ela não se adequa muito bem com materiais de dificuldade variada.
 
-The biggest developments in the last 30 years have come from the authors
-of SuperMemo, a commercial flashcard program that implements spaced
-repetition. SuperMemo pioneered the concept of a system that keeps track
-of the ideal time to review material and optimizes itself based on the
-performance of the user.
+As maiores contribuições nos últimos 30 anos tem sido dos autores do SuperMemo, um programa comercial de fichas de estudo que implementaram a repetição espaçada. O SuperMemo foi pioneiro na concepção de um sistema que registre o tempo ideal para revisar um material e se auto otimize baseado na performance do usuário.
 
-In SuperMemo’s spaced repetition system, every time you answer a
-question, you tell the program how well you were able to remember it –
-whether you forgot completely, made a small mistake, remembered with
-trouble, remembered easily, etc. The program uses this feedback to
-decide the optimal time to show you the question again. Since a memory
-gets stronger each time you successfully recall it, the time between
-reviews gets bigger and bigger – so you may see a question for the first
-time, then 3 days later, 15 days later, 45 days later, and so on.
+No sistema de repetição espaçada do SuperMemo, toda vez que você responde uma pergunta, você informa ao programa o quão bem você estava apto a recordar aquilo - quer tenha esquecido completamente, cometido um pequeno engano, recordado com dificuldade, recordado com facilidade, etc. O programa usa esse informação para decidir o momento ideal para exibir a pergunta novamente. A partir do momento em que a memória passa a se fortalecer a cada vez que você recorda com sucesso, o período entre as revisões vai crescendo - de modo que você pode ver uma pergunta pela primeira vez, então 3 dias depois, 15 dias depois, 45 dias depois e assim por diante.
 
-This was a revolution in learning, as it meant material could be learnt
-and retained with the absolute minimum amount of effort necessary.
-SuperMemo’s slogan sums it up: with spaced repetition, you can 'forget
-about forgetting'.
+Isso foi uma revolução no aprendizado, já que significou que um material pode ser aprendido e mantido com a quantidade mínima absoluta de esforço necessário. O slogan do SuperMemo acrescenta: com repetição espaçada, você pode 'esquecer sobre se esquecer'.
 
-Why Anki?
+Por que Anki?
 ---------
 
-While there is no denying the huge impact SuperMemo has had on the
-field, it is not without its problems. The program is often criticized
-for being buggy and difficult to navigate. It only runs on Windows
-computers. It’s proprietary software, meaning end-users can’t extend it
-or access the raw data. And while very old versions are made available
-for free, they are quite limited for modern use.
+Enquanto que é inegável o enorme impacto que o SuperMemo causou nesse âmbito, isso não foi com isenção de problemas. O programa é frequentemente criticado por ser cheio de problemas e de difícil navegação. Ele somente funciona em computadores Windows. É um programa de computador proprietário, o que significa que usuário finais não podem aprimora-lo ou ter acesso aos seus dados brutos. E embora versões antigas sejam distribuidas gratuitamente, elas são bastante limitadas para o uso moderno.
 
-Anki addresses these issues. There are free clients for Anki available
-on many platforms, so struggling students and teachers with budgetary
-constraints are not left out. It’s open source, with an already
-flourishing library of add-ons contributed by end-users. It’s
-multi-platform, running on Windows, Mac OSX, Linux/FreeBSD, and some
-mobile devices. And it’s considerably easier to use than SuperMemo.
+Anki resolve essas questões. Há programas Anki gratuitos disponíveis em várias plataformas, de modo que estudantes apertados ou professores com orçamentos limitados não são deixados de fora. É código livre, já com crescente biblioteca de componentes contribuídos por usuários finais. É multiplataforma, funcionando no Windows, Mac OSX, Linux/FreeBSD, e alguns dispositivos móveis. E é considerado mais fácil de usar do que o SuperMemo.
 
-Anki’s spaced repetition system is based on an older version of the
-SuperMemo algorithm called [SM-2](faqs.md).
+O sistema de repetição espaçada do Anki é baseado numa antiga versão do algoritmo do SuperMemo chamado [SM-2](faqs.md).
 
