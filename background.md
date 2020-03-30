@@ -1,77 +1,43 @@
-# Background
+# Antecedentes
 
-Anki is a program which makes remembering things easy. Because it is a
-lot more efficient than traditional study methods, you can either
-greatly decrease your time spent studying, or greatly increase the
-amount you learn.
+Anki é um programa que torna relembrar fácil. Isso porque ele é muito mais eficiente do que os métodos de estudo tradicionais, você pode até mesmo reduzir bastante o tempo gasto estudando ou aumentar em muito o aprendizado.
 
-Anyone who needs to remember things in their daily life can benefit from
-Anki. Since it is content-agnostic and supports images, audio, videos
-and scientific markup (via LaTeX), the possibilities are endless. For
-example:
+Qualquer pessoa que precisa lembrar de algo em sua rotina diária pode se beneficiar do Anki. Já que ele é independente de conteúdo e suporta imagens, áudio, vídeos e marcação científica (via LaTeX) as possibilidades são ilimitadas. Por exemplo:
 
--   learning a language
+-   aprendendo línguas
 
--   studying for medical and law exams
+-   estudando para exames da ordem dos médicos e dos advogados
 
--   memorizing people’s names and faces
+-   memorizando nomes e rostos de pessoas
 
--   brushing up on geography
+-   revisar geografia
 
--   mastering long poems
+-   dominando poemas longos
 
--   even practicing guitar chords!
+-   até mesmo praticando acordes de violão
 
-There are two simple concepts behind Anki: 'active recall testing' and
-'spaced repetition'. They are not known to most learners, despite having
-been written about in the scientific literature for many years.
-Understanding how they work will make you a more effective learner.
+Há dois conceitos simples por trás do Anki: 'estando recordação ativa' e
+'repetição espaçada'. Eles não são conhecidos pela maioria dos estudantes, apesar de terem sido descritos na literatura científica por tantos anos. Compreender como eles funcionam irá fazê-lo um estudante mais eficaz.
 
-Active Recall Testing
+Teste de Recordação Ativa
 ---------------------
 
-'Active recall testing' means being asked a question and trying to
-remember the answer. This is in contrast to 'passive study', where we
-read, watch or listen to something without pausing to consider if we
-know the answer. Research has shown that active recall testing is far
-more effective at building strong memories than passive study. There are
-two reasons for this:
+'Teste de recordação ativa' significa ser questionado e tentar relembrar a resposta. Isso em contraste com o 'estudo passivo', onde nós lemos, assistimos ou escutamos algo sem um intervalo para refletir se nós sabemos a resposta. Pesquisas tem demonstrado que o teste de recordação ativa é de longe mais efetivo em construir memórias robustas do que o estudo passivo. Há duas razões para isso:
 
--   The act of recalling something 'strengthens' the memory, increasing
-    the chances we’ll be able to remember it again.
+-   O ato de relembrar algo 'fortalece' a memória, aumentando as chances de que estejamos aptos a recordar aquilo novamente.
+    
+-   Quando não somos capazes de responder uma pergunta, isso nos quer dizer que precisamos voltar ao material para revisar ou reaprender.
 
--   When we’re unable to answer a question, it tells us we need to
-    return to the material to review or relearn it.
+Você provavelmente encontrou por anos testes de recordação ativa na sua escola sem ao menos perceber isto. Quando bons professores lhe atribuem uma lista de perguntas após a leitura de um artigo, ou o submetem a um teste semanal de verificação de progresso, eles não estão fazendo isso simplesmente para verificar se você entendeu ou não o material. Por testá-lo, eles estão aumentando as chances de que você estará apto a recordar o material no futuro.
 
-You have probably encountered active recall testing in your school years
-without even realizing it. When good teachers give you a series of
-questions to answer after reading an article, or make you take weekly
-progress-check tests, they are not doing it simply to see if you
-understood the material or not. By testing you, they are increasing the
-chances you will be able to remember the material in the future.
+Uma boa forma de integrar o teste de recordação ativa em seus estudos é com o uso de 'cartões de memória'. Com cartões de memória tradicionais, você escreve uma pergunta de um lado do cartão e a resposta no outro lado. Por não virar o cartão até que você tenha pensado sobre a resposta você poder aprender coisas mais efetivamente do que a observação passiva permite.
 
-A good way to integrate active recall testing into your own studies is
-to use 'flashcards'. With traditional paper flashcards, you write a
-question on one side of a card, and the answer on the other side. By not
-turning the card over until you’ve thought about the answer, you can
-learn things more effectively than passive observation allows.
-
-Use It or Lose It
+Use ou perca
 -----------------
 
-Our brains are efficient machines, and they rapidly discard information
-that doesn’t seem useful. Chances are that you don’t remember what you
-had for dinner on Monday two weeks ago, because this information is not
-usually useful. If you went to a fantastic restaurant that day and spent
-the last two weeks telling people about how great it was, however,
-you’re likely to still remember in vivid detail.
+Nossos cérebros são máquinas eficientes, e eles rapidamente descartam informações que não parecem ser úteis. As chances são de que você não lembre o que jantou na segunda-feira de duas semanas atrás, porque essa informação geralmente não é útil. Entretanto, se você foi a um restaurante fantástico naquele dia e gastou as últimas duas semanas dizendo às pessoas sobre o quão boa foi essa experiência, as chances são de que você ainda se lembre em detalhes vívidos.
 
-The brain’s “use it or lose it” policy applies to everything we learn.
-If you spend an afternoon memorizing some science terms, and then don’t
-think about that material for two weeks, you’ll probably have forgotten
-most of it. In fact, studies show we forget about 75% of material learnt
-within a 48 hour period. This can seem pretty depressing when you need
-to learn a lot of information.
+A política do nosso cérebro de "use ou perca" se aplica a tudo o que aprendemos. Se passarmos uma tarde inteira memorizando alguns termos científicos e não pensarmos sobre aquele material por duas semanas, é provável que esqueceremos grande parte. De fato, estudos tem demonstrado que nós esquecemos cerca de 75% do material aprendido dentro do período de 48 horas. Isso pode parece bem desanimador quando você precisa aprender um monte de informações.
 
 The solution is simple, however: 'review'. By reviewing newly-learnt
 information, we can greatly reduce forgetting.
