@@ -1,47 +1,34 @@
-# Getting Started
+# Começando
 
-## Videos
+## Vídeos
 
-For a quick way to dive into Anki, please have a look at these intro
-videos. They were made with a previous Anki version, but the concepts
-are the same.
+Para se dubruçar rapidamente no Anki, por favor confira esses vídeos introdutórios. Eles foram produzidos com uma versão anterior do Anki, mas o conceito é o mesmo.
 
--   [Shared Decks and Review
-    Basics](http://www.youtube.com/watch?v=QS2G-k2hQyg&yt:cc=on)
+-   [Baralhos compartilhados e Revisando o básico](http://www.youtube.com/watch?v=QS2G-k2hQyg&yt:cc=on)
+    
+-   [Mudando a ordem das Cartas](http://www.youtube.com/watch?v=DnbKwHEQ1mA&yt:cc=on)
+    
+-   [Estilizando as Cartas](http://www.youtube.com/watch?v=F1j1Zx0mXME&yt:cc=on)
 
--   [Switching Card
-    Order](http://www.youtube.com/watch?v=DnbKwHEQ1mA&yt:cc=on)
+-   [Digitando na Resposta](http://www.youtube.com/watch?v=5tYObQ3ocrw&yt:cc=on)
 
--   [Styling Cards](http://www.youtube.com/watch?v=F1j1Zx0mXME&yt:cc=on)
-
--   [Typing in the
-    Answer](http://www.youtube.com/watch?v=5tYObQ3ocrw&yt:cc=on)
-
-If YouTube is unavailable in your country, you can [download the
-videos](https://apps.ankiweb.net/downloads/archive/screencasts/2.0/)
-instead.
+Se o YouTube está indisponível em seu país, como alternativa você pode [baixar os vídeos](https://apps.ankiweb.net/downloads/archive/screencasts/2.0/).
 
 
-## Key Concepts
+## Conceitos Chave
 
-### Cards
+### Cartas
 
-A question and answer pair is called a 'card'. This is based on a paper
-flashcard with a question on one side and the answer on the back. In
-Anki a card doesn’t actually look like a physical card, and when you
-show the answer the question remains visible by default. For example, if
-you’re studying basic chemistry, you might see a question like:
+O par composto por uma pergunta e uma resposta é chamado de 'carta'. Isso é baseado em cartões de memória de papel cujo anverso possui uma pergunta e o verso possui a resposta. No Anki a carta não se parece propriamente com a carta física, e quando você exibe a resposta a pergunta ainda fica visível por padrão. Por exemplo, se você está estudando química básica, você pode ver uma pergunta como esta:
 
-    Q: Chemical symbol for oxygen?
+    P: Símbolo químico do oxigênio?
 
-After thinking about it, and deciding the answer is O, you click the
-show answer button, and Anki shows you:
+Depois de pensar sobre isso e decidir que a resposta é O, você pressiona o botão exibir resposta e o Anki exibe para você:
 
-    Q: Chemical symbol for oxygen?
-    A: O
+    P: Símbolo químico do oxigênio?
+    R: O
 
-After confirming that you are correct, you can tell Anki how well you
-remembered, and Anki will choose a next time to show you again.
+Depois de confirmar que você está certo, você pode informar ao Anki o quão facilmente recordou e o Anki irá escolher a próxima vez que exibirá para você.
 
 ### Decks
 

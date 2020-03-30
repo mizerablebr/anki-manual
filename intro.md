@@ -1,13 +1,12 @@
-# Introduction
+# Introdução
 
-## Quickstart
+## Começo Rápido
 
-In a hurry? Jump straight to [Getting Started](getting-started.md).
+Pressado? Vá direto para [Começando](getting-started.md).
 
-## Translations
+## Traduções
 
-Volunteers have contributed translations of this manual. The
-translations may not always be up to date.
+Voluntários tem contribuído com a tradução desse manual. As traduções podem estar defasadas.
 
 - [Bahasa Indonesia](https://apps.ankiweb.net/docs/manual.id.html)
 
@@ -27,5 +26,5 @@ translations may not always be up to date.
 
 - [简体中文](http://www.ankichina.net/manual/anki/)
 
-If you would like to help translate the manual into a different language,
-please see the [translation docs](https://translating.ankiweb.net/#/anki/manual).
+Se você gostaria de ajudar traduzindo esse manual para uma língua diferente,
+por favor veja os [documentos de tradução](https://translating.ankiweb.net/#/anki/manual).
