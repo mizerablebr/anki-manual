@@ -19,7 +19,7 @@ Se o YouTube está indisponível em seu país, como alternativa você pode [baix
 
 ### Cartões
 
-O par composto por uma pergunta e uma resposta é chamado de 'carta'. Isso é baseado em cartões de memória de papel cujo anverso possui uma pergunta e o verso possui a resposta. No Anki a carta não se parece propriamente com a carta física, e quando você exibe a resposta a pergunta ainda fica visível por padrão. Por exemplo, se você está estudando química básica, você pode ver uma pergunta como esta:
+O par composto por uma pergunta e uma resposta é chamado de 'cartão'. Isso é baseado em cartões de estudo de papel cujo anverso possui uma pergunta e o verso possui a resposta. No Anki o cartão não se parece propriamente com o cartão físico, e quando você exibe a resposta a pergunta ainda fica visível por padrão. Por exemplo, se você está estudando química básica, você pode ver uma pergunta como esta:
 
     P: Símbolo químico do oxigênio?
 
@@ -30,90 +30,49 @@ Depois de pensar sobre isso e decidir que a resposta é O, você pressiona o bot
 
 Depois de confirmar que você está certo, você pode informar ao Anki o quão facilmente recordou e o Anki irá escolher a próxima vez que exibirá para você.
 
-### Decks
+### Baralho
 
-A 'deck' is a group of cards. You can place cards in different decks to
-study parts of your card collection instead of studying everything at
-once. Each deck can have different settings, such as how many new cards
-to show each day, or how long to wait until cards are shown again.
+Um 'baralho' é um grupo de cartões. Você pode colocar cartões em baralhos diferentes para estudar partes da sua coleção de cartões ao invés de estudar tudo de uma vez. Cada baralho pode ter configurações distintas, como quantos cartões novos exibir por dia, ou quanto tempo esperar até que os cartões seja exibidos novamente.
 
-Decks can contain other decks, which allows you to organize decks into a
-tree. Anki uses “::” to show different levels. A deck called
-“Chinese::Hanzi” refers to a “Hanzi” deck, which is part of a “Chinese”
-deck. If you select “Hanzi” then only the Hanzi cards will be shown; if
-you select “Chinese” then all Chinese cards, including Hanzi cards, will
-be shown.
+Baralhos podem conter outros baralhos, o que lhe permite organizá-los como uma árvore. Anki usa “::” para exibir os diferentes níveis. Um baralho chamado “Chinês::Hanzi” se refere ao baralho “Hanzi”, que faz parte do baralho “Chinês”. Se você selecionar “Hanzi” então apenas os cartões Hanzi serão exibidos; se você selecionar “Chinês” então todos os cartões chineses, inclusive os cartões Hanzi, serão exibidos.
 
-To place decks into a tree, you can either name them with “::” between
-each level, or drag and drop them from the deck list. Decks that have
-been nested under another deck (that is, that have at least one “::” in
-their names) are often called 'subdecks', and top-level decks are
-sometimes called 'superdecks' or 'parent decks'.
+Para colocar um baralho em árvore, você tanto pode nomeá-los com “::” entre cada nível, ou da lista de baralhos arrastar e soltar eles. Baralhos que foram estruturados sob um outro baralho (ou seja, tem ao menos um “::” em seus nomes) são geralmente chamados de 'sub-baralhos', e os baralhos do topo da árvore às vezes são chamados de 'superbaralhos' or 'baralhos pai'.
 
-Anki starts with a deck called “default”; any cards which have somehow
-become separated from other decks will go here. Anki will hide the
-default deck if it contains no cards and you have added other decks.
-Alternatively, you may rename this deck and use it for other cards.
+Anki começa com um baralho chamado “padrão”; qualquer cartão que de alguma forma tenha sido separado de outros baralhos irá para ele. Anki irá esconder o baralho padrão caso não contenha cartões e você tenha adicionado novos baralhos. Alternativamente, você pode renomeá-lo e usá-lo para outros cartões.
 
-Decks are best used to hold broad categories of cards, rather than
-specific topics such as “food verbs” or “lesson 1”. For more info on
-this, please see the [using decks appropriately](editing.md#using-decks-appropriately) section.
+Baralhos são melhor utilizados para agrupar categorias amplas de cartões, so invés de tópicos específicos como “verbos alimentares” ou “lição 1”. Para mais informações nesse sentido, por favor consulte a seção [usando baralhos adequadamente](editing.md#using-decks-appropriately).
 
-For information on how decks affect the order cards are displayed in,
-please see the [display order](studying.md#display-order) section.
+Para informações sobre como o baralho afeta a ordem de exibição dos cartões, por favor consulte a seção [ordem de exibição](studying.md#display-order).
 
-### Notes & Fields
+### Notas & Campos
 
-When making flashcards, it’s often desirable to make more than one card
-that relates to some information. For example, if you’re learning
-French, and you learn that the word “bonjour” means “hello”, you may
-wish to create one card that shows you “bonjour” and asks you to
-remember “hello”, and another card that shows you “hello” and asks you
-to remember “bonjour”. One card is testing your ability to recognize the
-foreign word, and the other card is testing your ability to produce it.
+Ao fazer cartões de estudo, é frequentemente desejável que seja feito mais de um cartão com referência a dada informação. Por exemplo, se você está aprendendo lingua francesa e você aprendeu que  a palavra “bonjour” significa “olá”, você pode querer criar um cartão que exiba “bonjour” e o demande por lembrar “olá”, e um outro cartão que exiba “olá” e requeira que você lembre de “bonjour”. Um cartão está testando sua habilidade em reconhecer a palavra estrangeira e o outro cartão está testando sua habilidade em produzir-la.
 
-When using paper flashcards, your only option in this case is to write
-out the information twice, once for each card. Some computer flashcard
-programs make life easier by providing a feature to flip the front and
-back sides. This is an improvement over the paper situation, but there
-are two major downsides:
+Enquanto usa cartões de memória em papel, sua única opção neste caso é tomar nota dessa informação duas vezes, uma para cada cartão. Alguns programas de computador de cartões de estudo tornam sua vida mais fácil ao oferecer uma funcionalidade de girar o anverso e o verso. Isso é um aperfeiçoamento do situação do papel, mas há duas grandes desvantagens:
 
--   Because such programs don’t track your performance of recognition
-    and production separately, cards will tend not to be shown to you at
-    the optimum time, meaning you forget more than you’d like, or you
-    study more than is necessary.
+-   Pelo motivo desses programas não acompanharem sua performance de reconhecimento e produção separadamente, os cartões tenderão a não serem exibidos para você no momento ótimo, significa dizer que você esquecerá mais do que gostaria ou estudará mais do que o necessário.
+    
+-   Inverter a pergunta e a resposta apenas funciona quando você quer exatamente o mesmo conteúdo em cada lado. Isso significa, por exemplo, que não é possível exibir informação extra no verso de cada cartão.
 
--   Reversing the question and answer only works when you want exactly
-    the same content on each side. This means it’s not possible to
-    display extra info on the back of each card for example.
+Anki resolve esses problemas ao permitir que você divida o conteúdo dos seus cartões em pedaços de informação separados. Você pode então dizer ao Anki que pedaço da informação você quer em cada cartão e o Anki irá tomar conta da criação do cartões para você e atualizá-los se você fizer qualquer edição no futuro.
 
-Anki solves these problems by allowing you to split the content of your
-cards up into separate pieces of information. You can then tell Anki
-which pieces of information you want on each card, and Anki will take
-care of creating the cards for you and updating them if you make any
-edits in the future.
+Imagine que nós queiramos estudar o vocabulário francês e nossa vontade é de que o número da página esteja incluído no verso de cada cartão. Nós queremos nossos cartões com a seguinte aparência:
 
-Imagine we want to study French vocabulary, and we want to include the
-page number on the back of each card. We want our cards to look like
-this:
+    P: Bonjour
+    R: Olá
+       Página #12
 
-    Q: Bonjour
-    A: Hello
-       Page #12
+E:
 
-And:
+    P: Olá
+    R: Bonjour
+       Página #12
 
-    Q: Hello
-    A: Bonjour
-       Page #12
+Neste exemplo nós temos três fragmentos de informações: uma palavra francesa, seu significado em português e o número da página. Se as colocarmos juntas, elas se parecerão com isso:
 
-In this example, we have three pieces of related information: a French
-word, an English meaning, and a page number. If we put them together,
-they’d look like this:
-
-    French: Bonjour
-    English: Hello
-    Page: 12
+    Língua francesa: Bonjour
+    Língua Portuguesa: Olá
+    Página: 12
 
 In Anki, this related information is called a 'note', and each piece of
 information is called a 'field'. So we can say that this type of note
