@@ -74,13 +74,9 @@ Neste exemplo nós temos três fragmentos de informações: uma palavra francesa
     Língua Portuguesa: Olá
     Página: 12
 
-In Anki, this related information is called a 'note', and each piece of
-information is called a 'field'. So we can say that this type of note
-has three fields: French, English, and Page.
+No Anki essa informação relacionada é chamada de 'nota' e cada fragmento de informação é chamado de 'campo'. Então podemos dizer que esse tipo de nota tem três campos: Língua francesa, Língua portuguesa e Página.
 
-To add and edit fields, click the “Fields…​” button while adding or
-editing notes. For more information on fields, please see the
-[Customizing Fields](editing.md#customizing-fields) section.
+Para adicionar e editar campos, pressione o botão “Campos…​” quando estiver adicionando ou editando notas. Para mais informações sobre campos, por favor consulte a seção [Personalização de campos](editing.md#customizing-fields).
 
 ### Card Types
 
