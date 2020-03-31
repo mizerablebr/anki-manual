@@ -30,7 +30,7 @@ Teste de Recordação Ativa
 
 Você provavelmente encontrou por anos testes de recordação ativa na sua escola sem ao menos perceber isto. Quando bons professores lhe atribuem uma lista de perguntas após a leitura de um artigo, ou o submetem a um teste semanal de verificação de progresso, eles não estão fazendo isso simplesmente para verificar se você entendeu ou não o material. Por testá-lo, eles estão aumentando as chances de que você estará apto a recordar o material no futuro.
 
-Uma boa forma de integrar o teste de recordação ativa em seus estudos é com o uso de 'fichas de estudo'. Com fichas de estudo tradicionais, você escreve uma pergunta de um lado do cartão e a resposta no outro lado. Por não virar o cartão até que você tenha pensado sobre a resposta você poder aprender coisas mais efetivamente do que a observação passiva permite.
+Uma boa forma de integrar o teste de recordação ativa em seus estudos é com o uso de 'cartões de estudo'. Com cartões de estudo tradicionais, você escreve uma pergunta de um lado do cartão e a resposta no outro lado. Por não virar o cartão até que você tenha pensado sobre a resposta você poder aprender coisas mais efetivamente do que a observação passiva permite.
 
 Use ou perca
 -----------------
@@ -41,16 +41,16 @@ A política do nosso cérebro de "use ou perca" se aplica a tudo o que aprendemo
 
 A solução, entretanto, é simples: 'revisar'. Por revisando informações recentemente aprendidas nós podemos reduzir bastante o esquecimento.
 
-O único problema é que a revisão tradicional não era muito prática. Se você está usando fichas de estudo em papel, é fácil manusear todos rapidamente se você tem apenas 30 deles para revisar, mas a medida que o número cresce para 300 ou 3000, rapidamente isso fica desajeitado.
+O único problema é que a revisão tradicional não era muito prática. Se você está usando cartões de estudo em papel, é fácil manusear todos rapidamente se você tem apenas 30 deles para revisar, mas a medida que o número cresce para 300 ou 3000, rapidamente isso fica desajeitado.
 
 Repetição espaçada
 -----------------
 
 O 'efeito do espaçamento' foi relatado por um psicólogo alemão em 1885. Ele observou que nós tendemos a recodar algo com mais eficiência se nós espalharmos as revisões no tempo ao invés de estudar várias vezes em uma única sessão. Desde a década de 30 houve várias propostas de utilização do efeito do espaçamento para melhorar o aprendizado, algo que passou a ser conhecido como 'repetição espaçada'.
 
-Um exemplo vem de 1972, quando um cientista alemão chamado Sebastian Leitner popularizou o método da repetição espaçada com fichas de estudo. Ao separar as fichas de papel em uma série de caixas, movendo a ficha para uma caixa diferente a cada sucesso ou insucesso na revisão, foi possível verificar de relance uma estimativa superficial de o quão bem uma ficha foi reconhecida e quando ela deve ser revisada novamente. Esse foi um grande aperfeiçoamento considerando o modelo com apenas uma caixa de fichas, e tem sido largamente adotado por programas de computador de fichas de estudo computadorizadas. Entretanto essa é uma abordagem bastante grosseira, uma vez que ela não pode dizer com exatidão o data em que você deve novamente revisar algo, e ela não se adequa muito bem com materiais de dificuldade variada.
+Um exemplo vem de 1972, quando um cientista alemão chamado Sebastian Leitner popularizou o método da repetição espaçada com cartões de estudo. Ao separar os cartões de papel em uma série de caixas, movendo o cartão para uma caixa diferente a cada sucesso ou insucesso na revisão, foi possível verificar de relance uma estimativa superficial de o quão bem um cartão foi reconhecido e quando ele deve ser revisado novamente. Esse foi um grande aperfeiçoamento considerando o modelo com apenas uma caixa de cartões, e tem sido largamente adotado por programas de computador de cartões de estudo computadorizados. Entretanto essa é uma abordagem bastante grosseira, uma vez que ela não pode dizer com exatidão o data em que você deve novamente revisar algo, e ela não se adequa muito bem com materiais de dificuldade variada.
 
-As maiores contribuições nos últimos 30 anos tem sido dos autores do SuperMemo, um programa comercial de fichas de estudo que implementaram a repetição espaçada. O SuperMemo foi pioneiro na concepção de um sistema que registre o tempo ideal para revisar um material e se auto otimize baseado na performance do usuário.
+As maiores contribuições nos últimos 30 anos tem sido dos autores do SuperMemo, um programa comercial de cartões de estudo que implementaram a repetição espaçada. O SuperMemo foi pioneiro na concepção de um sistema que registre o tempo ideal para revisar um material e se auto otimize baseado na performance do usuário.
 
 No sistema de repetição espaçada do SuperMemo, toda vez que você responde uma pergunta, você informa ao programa o quão bem você estava apto a recordar aquilo - quer tenha esquecido completamente, cometido um pequeno engano, recordado com dificuldade, recordado com facilidade, etc. O programa usa esse informação para decidir o momento ideal para exibir a pergunta novamente. A partir do momento em que a memória passa a se fortalecer a cada vez que você recorda com sucesso, o período entre as revisões vai crescendo - de modo que você pode ver uma pergunta pela primeira vez, então 3 dias depois, 15 dias depois, 45 dias depois e assim por diante.
 

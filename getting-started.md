@@ -6,9 +6,9 @@ Para se dubruçar rapidamente no Anki, por favor confira esses vídeos introdut�
 
 -   [Baralhos compartilhados e Revisando o básico](http://www.youtube.com/watch?v=QS2G-k2hQyg&yt:cc=on)
     
--   [Mudando a ordem das Cartas](http://www.youtube.com/watch?v=DnbKwHEQ1mA&yt:cc=on)
+-   [Mudando a ordem dos Cartões](http://www.youtube.com/watch?v=DnbKwHEQ1mA&yt:cc=on)
     
--   [Estilizando as Cartas](http://www.youtube.com/watch?v=F1j1Zx0mXME&yt:cc=on)
+-   [Estilizando os Cartões](http://www.youtube.com/watch?v=F1j1Zx0mXME&yt:cc=on)
 
 -   [Digitando na Resposta](http://www.youtube.com/watch?v=5tYObQ3ocrw&yt:cc=on)
 
@@ -17,7 +17,7 @@ Se o YouTube está indisponível em seu país, como alternativa você pode [baix
 
 ## Conceitos Chave
 
-### Cartas
+### Cartões
 
 O par composto por uma pergunta e uma resposta é chamado de 'carta'. Isso é baseado em cartões de memória de papel cujo anverso possui uma pergunta e o verso possui a resposta. No Anki a carta não se parece propriamente com a carta física, e quando você exibe a resposta a pergunta ainda fica visível por padrão. Por exemplo, se você está estudando química básica, você pode ver uma pergunta como esta:
 
