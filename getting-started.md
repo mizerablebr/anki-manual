@@ -70,7 +70,7 @@ E:
 
 Neste exemplo nós temos três fragmentos de informações: uma palavra francesa, seu significado em português e o número da página. Se as colocarmos juntas, elas se parecerão com isso:
 
-    Língua francesa: Bonjour
+    Língua Francesa: Bonjour
     Língua Portuguesa: Olá
     Página: 12
 
@@ -78,68 +78,39 @@ No Anki essa informação relacionada é chamada de 'nota' e cada fragmento de i
 
 Para adicionar e editar campos, pressione o botão “Campos…​” quando estiver adicionando ou editando notas. Para mais informações sobre campos, por favor consulte a seção [Personalização de campos](editing.md#customizing-fields).
 
-### Card Types
+### Tipos de Cartões
 
-In order for Anki to create cards based on our notes, we need to give it
-a blueprint that says which fields should be displayed on the front or
-back of each card. This blueprint is called a 'card type'. Each type of
-note can have one or more card types; when you add a note, Anki will
-create one card for each card type.
+Para que o Anki possa criar cartões baseados em nossas anotações, nós precisamos fornecer um diagrama descrevendo quais campos devem ser exibidos no anverso ou no verso de cada cartão. Esse diagrama é chamado 'tipo de cartão'. Cada tipo de nota pode ter um ou mais tipo de cartão; quando você adiciona uma nota o Anki irá criar um cartão para cada tipo de cartão.
 
-Each card type has two 'templates', one for the question and one for the
-answer. In the above French example, we wanted the recognition card to
-look like this:
+Cada tipo de cartão tem dois 'modelos', um para a pergunta e outro para a resposta. No exemplo de Língua Francesa acima, nós queremos que o cartão de reconhecimento se pareça com isso:
 
-    Q: Bonjour
-    A: Hello
-       Page #12
+    P: Bonjour
+    R: Olá
+       Página #12
 
-To do this, we can set the question and answer templates to:
+Para fazer isso, nós podemos configurar o modelo de pergunta e resposta assim:
 
-    Q: {{French}}
-    A: {{English}}<br>
-       Page #{{Page}}
+    P: {{Língua Francesa}}
+    R: {{Língua Portuguesa}}<br>
+       Página #{{Página}}
 
-By surrounding a field name in double curly brackets, we tell Anki to
-replace that section with the actual information in the field. Anything
-not surrounded by curly brackets remains the same on each card. (For
-instance, we don’t have to type “Page \#” into the Page field when
-adding material – it’s added automatically to every card.) &lt;br&gt; is
-a special code that tells Anki to move to the next line; more details
-are available in the [templates](templates/intro.md) section.
+Ao circundar um nome de campo com caves duplas nós informamos ao Anki que ele deve substituir aquela seção com a informação do campo. Qualquer coisa que não esteja circundada por chaves duplas permanece como está em cada cartão (por exemplo, nós não precisamos digitar “Página \#” no campo Página quando estamos adicionando material – isso é adicionado automaticamente em todo cartão.) &lt;br&gt; é um código especial que avisa ao Anki que ele deve ir para a próxima linha; mais detalhes estão disponíveis na seção [modelos](templates/intro.md).
 
-The production card templates work in a similar way:
+Os modelos de produção de cartão funcionam funcionam de uma forma semelhante:
 
-    Q: {{English}}
-    A: {{French}}<br>
-       Page #{{Page}}
+    P: {{Língua Portuguesa}}
+    R: {{Língua Francesa}}<br>
+       Página #{{Página}}
 
-Once a card type has been created, every time you add a new note, a card
-will be created based on that card type. Card types make it easy to keep
-the formatting of your cards consistent and can greatly reduce the
-amount of effort involved in adding information. They also mean Anki can
-ensure related cards don’t appear too close to each other, and they
-allow you to fix a typing mistake or factual error once and have all the
-related cards updated at once.
+Uma vez que um tipo de cartão tenha sido criado, toda vez que você adicionar uma nova nota, um cartão será criado baseado no tipo de cartão. Tipos de cartão tornam mais fácil manter a formação dos seus cartões consistente e pode diminuir bastante o esforço necessário para adicionar informações. Eles também significam que o Anki pode garantir que cartões relacionados não irão aparecer muito próximo uns dos outros, e eles permitem que você corrija um erro de digitação ou erro de fato apenas uma vez e todos os cartões relacionados serão atualizados de uma vez.
 
-To add and edit card types, click the “Cards…​” button while adding or
-editing notes. For more information on card types, please see the [Cards
-and Templates](templates/intro.md) section.
+Para adicionar ou editar tipos de cartão, pressione o botão “Cartões…​” enquanto estiver adicionando ou editando uma nota. Para mais informações sobre tipos de cartão, por favor verifique a seção [Cartões e Modelos](templates/intro.md).
 
-### Note Types
+### Tipos de Notas
 
-Anki allows you to create different types of notes for different
-material. Each type of note has its own set of fields and card types.
-It’s a good idea to create a separate note type for each broad topic
-you’re studying. In the above French example, we might create a note
-type called “French” for that. If we wanted to learn capital cities, we
-could create a separate note type for that as well, with fields such as
-“Country” and “Capital City”.
+Anki permite que você crie diferentes tipos de notas para diferentes materiais. Cada tipo de nota possui seu próprio conjunto de campos e tipos de carta. É recomendado criar um tipo de nota separado para cada grande tópico que esteja estudando. No exemplo de Língua Francesa acima, nós devemos criar para ele um tipo de nota chamado “Língua Francesa”. Se quisermos aprender sobre capitais, nós poderíamos criar também para isso um tipo de nota separado, com campos como “País” e “Capital”.
 
-When Anki checks for duplicates, it only compares other notes of the
-same type. Thus if you add a capital city called “Orange” using the
-capital city note type, you won’t see a duplicate message when it comes
-time to learn how to say “orange” in French.
+Quando o Anki verifica se existem duplicatas, ele apenas compara com outras notas do mesmo tipo. Assim, se você adicionar uma capital chamada “Laranja” usando o tipo de nota capitais, você não verá a mensagem de nota duplicada quando chegar a hora de aprender como falar “Laranja” em Língua Francesa.
 
 When you create a new collection, Anki automatically adds some standard
 note types to it. These note types are provided to make Anki easier for
