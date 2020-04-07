@@ -112,32 +112,20 @@ Anki permite que você crie diferentes tipos de notas para diferentes materiais.
 
 Quando o Anki verifica se existem duplicatas, ele apenas compara com outras notas do mesmo tipo. Assim, se você adicionar uma capital chamada “Laranja” usando o tipo de nota capitais, você não verá a mensagem de nota duplicada quando chegar a hora de aprender como falar “Laranja” em Língua Francesa.
 
-When you create a new collection, Anki automatically adds some standard
-note types to it. These note types are provided to make Anki easier for
-new users, but in the long run it’s recommended you define your own note
-types for the content you are learning. The standard note types are as
-follows:
+Quando você adiciona uma coleção nova, o Anki automaticamente acrescenta nela alguns tipos de notas padrão. Esses tipos de notas são fornecidos para tornar o Anki mais simples para novos usuários, mas com o passar do tempo é recomendado que você defina seus próprios tipos de nota para o conteúdo que esteja estudando. Os tipos de nota padrão são os seguintes:
 
-Basic  
-Has Front and Back fields, and will create one card. Text you enter in
-Front will appear on the front of the card, and text you enter in Back
-will appear on the back of the card.
+Básico  
+Possui os campos Frente e Verso e criará um cartão. O texto que for digitado em Frente aparecerá no anverso do cartão, e o texto digitado em Verso aparecerá no verso do cartão.
 
-Basic (and reversed card)  
-Like Basic, but creates two cards for the text you enter: one from
-front→back and one from back→front.
+Básico (e cartão invertido)  
+Como o básico, só que cria dois cartões com as informações que você digita: um para 
+frente→verso e um para verso→frente.
 
-Basic (optional reversed card)  
-This is a front→back card, and optionally a back→front card. To do this,
-it has a third field called “Add Reverse.” If you enter any text into
-that field, a reverse card will be created. More information about this
-is available in the [Cards and Templates](templates/intro.md) section.
+Básico (cartão invertido opcional)  
+Esse é um cartão frente→verso e opcionalmente um cartão verso→frente card. Para tanto ele possui um terceiro campo chamado “Adicionar Invertido”. Se você adicionar qualquer texto naquele campo, um cartão invertido será criado. Para mais informações sobre isso está disponível na seção [Cartões e Modelos](templates/intro.md).
 
-Cloze  
-A note type which makes it easy to select text and turn it into a cloze
-deletion (e.g., “Man landed on the moon in \[…​\]” → “Man landed on the
-moon in 1969”). More information is available in the [cloze
-deletion](editing.md#cloze-deletion) section.
+Omissão de Palavras  
+Um tipo de nota que torna simples o ato de selecionar um texto e transformá-lo em um teste de omissão de palavras (ex.: “O homem pousou na lua em […​\]” → “O homem pousou na lua em 1969”). Mais informações estão disponíveis na seção [omissão de palavras](editing.md#cloze-deletion).
 
 To add your own note types and modify existing ones, you can use Tools →
 Manage Note Types from the main Anki window.
