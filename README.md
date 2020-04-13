@@ -1,4 +1,4 @@
-Melhor visualizado no website: https://docs.ankiweb.net
+Melhor visualizado no website: https://mizerablebr.github.io/anki-manual/
 
 Esse manual é licenciado sob a licença CC BY-SA 4:
 
