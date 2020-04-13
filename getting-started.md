@@ -127,73 +127,37 @@ Esse é um cartão frente→verso e opcionalmente um cartão verso→frente card
 Omissão de Palavras  
 Um tipo de nota que torna simples o ato de selecionar um texto e transformá-lo em um teste de omissão de palavras (ex.: “O homem pousou na lua em […​\]” → “O homem pousou na lua em 1969”). Mais informações estão disponíveis na seção [omissão de palavras](editing.md#cloze-deletion).
 
-To add your own note types and modify existing ones, you can use Tools →
-Manage Note Types from the main Anki window.
+Para adicionar os seus próprios tipos de nota e modificar os já existentes, você pode usar Ferramentas →
+Gerenciar Tipos de Notas na janela principal do Anki.
 
-Notes and note types are common to your whole collection rather than
-limited to an individual deck. This means you can use many different
-types of notes in a particular deck, or have different cards generated
-from a particular note in different decks. When you add notes using the
-Add window, you can select what note type to use and what deck to use,
-and these choices are completely independent of each other. You can also
-change the note type of some notes [after you’ve already created
-them](browsing.md).
+Ao invés de serem limitadas a um baralho específico, notas e tipos de notas são comuns a todas as suas coleções.  Isso quer dizer que você pode usar vários tipos de notas diferentes e um baralho específico, ou ter cartões diferentes gerados de uma nota particular em baralhos diferentes. Quando você adiciona notas usando a janela Adicionar, você pode selecionar que tipo de nota usar e qual baralho utilizar, sendo que estas opções são completamente independentes entre si. Você também pode mudar o tipo de nota de algumas notas [mesmo após elas já terem sido criadas](browsing.md).
 
-### Collection
+### Coleção
 
-Your 'collection' is all the material stored in Anki – your cards,
-notes, decks, note types, deck options, and so on.
+Sua 'coleção' é todo o material armazenado no Anki – seus cartões, notas, baralhos, tipos de notas, opções de baralho, e assim por diante.
 
-## Shared Decks
+## Baralhos Compartilhados
 
-You can watch [a video about Shared Decks and Review
-Basics](http://www.youtube.com/watch?v=QS2G-k2hQyg&yt:cc=on) on YouTube.
+Você pode assistir [um vídeo sobre conceitos básicos em Baralhos Compartilhados e Revisão](http://www.youtube.com/watch?v=QS2G-k2hQyg&yt:cc=on) no YouTube.
 
-The easiest way to get started with Anki is to download a deck of cards
-someone has shared:
+A forma mais fácil de começar a usar o Anki é fazendo o download de um baralho de cartões que alguém tenha compartilhado:
 
-1.  Click the “Get Shared” button at the bottom of the deck list.
+1.  Pressione o botão “Pegar Partilhados” na parte inferior da lista de baralhos.
 
-2.  When you’ve found a deck you’re interested in, click the “Download”
-    button to download a deck package.
+2.  Quando você encontrar um baralho em que esteja interessado, pressione o botão “Download” para baixar um pacote de baralhos.
+    
+3.  Dê um duplo-clique no pacote baixado para carregá-lo no Anki ou importe-o em Arquivo→Importar.
 
-3.  Double-click on the downloaded package to load it into Anki, or
-    File→Import it.
+Por favor tenha em mente que não é possível adicionar baralhos compartilhados diretamente na sua conta AnkiWeb. Você precisa importá-los com o programa para computador e então sincronizar para carregá-los no AnkiWeb.
 
-Please note that it’s not currently possible to add shared decks
-directly to your AnkiWeb account. You need to import them with the
-desktop program, then synchronize to upload them to AnkiWeb.
+Criar o seu próprio baralho é a forma mais eficiente de aprender um assunto mais complexo. Assuntos como línguas e ciências não podem ser aprendidos apenas memorizando fatos — eles demandam explicação e contexto para um aprendizado efetivo. Além disso, digitar você mesmo as informações força você a decidir quais são os tópicos principais, levando-o a uma melhor compreensão.
 
-Creating your own deck is the most effective way to learn a complex
-subject. Subjects like languages and the sciences can’t be understood
-simply by memorizing facts — they require explanation and context to
-learn effectively. Furthermore, inputting the information yourself
-forces you to decide what the key points are, leading to a better
-understanding.
+Se você é um estudante de línguas, você pode se sentir tentado a baixar uma longa lista de palavras com suas respectivas traduções, mas isso não irá lhe ensinar uma língua, da mesma forma que decorar equações científicas são o ensinará astrofísica. Para aprender adequadamente, você precisa de livros texto, professores ou exposição a expressões do mundo real.
 
-If you are a language learner, you may be tempted to download a long
-list of words and their translations, but this won’t teach you a
-language any more than memorizing scientific equations will teach you
-astrophysics. To learn properly, you need textbooks, teachers, or
-exposure to real-world sentences.
-
-    Do not learn if you do not understand.
+    Você não aprende se você não entende.
     --SuperMemo
 
-Most shared decks are created by people who are learning material
-outside of Anki – from textbooks, classes, TV, etc. They select the
-interesting points from what they learn and put them into Anki. They
-make no effort to add background information or explanations to the
-cards, because they already understand the material. So when someone
-else downloads their deck and tries to use it, they’ll find it very
-difficult as the background information and explanations are missing.
+A maioria dos baralhos compartilhados são criados por pessoas que estão aprendendo com materiais fora do Anki  – de livros texto, aulas, TV, etc. Eles selecionam os pontos de interesse do que eles aprenderam e colocam no Anki. Eles não se esforçam para adicionar informações de antecedentes ou explicações nos cartões porque eles já compreenderam o material. Então quando outra pessoa baixa seus baralhos e tenta utilizá-los eles vão sentir bastante dificuldade já que lhes faltarão as informações de antecedentes e as explicações.
 
-That is not to say shared decks are useless – simply that for complex
-subjects, they should be used as a 'supplement' to external material,
-not as a 'replacement' for it. If you’re studying textbook ABC and
-someone has shared a deck of ideas from ABC, that’s a great way to save
-some time. And for simple subjects that are basically a list of facts,
-such as capital city names or pub quiz trivia, you probably don’t need
-external material. But if you attempt to study complex subjects without
-external material, you will probably meet with disappointing results.
+Isso não quer dizer que baralhos compartilhados são imprestáveis – simplesmente que para assuntos complexos eles devem ser utilizados como um 'complemento' para um material externo, não um 'substituto' para ele. Se você está estudando o livro texto ABC e alguém já compartilhou um baralho de ideias do ABC, esta é uma ótima forma de poupar algum tempo. E para assuntos simples que são basicamente uma lista de fatos, como capitais ou perguntas e respostas de curiosidades, você provavelmente não precisa de um material extra. Mas se você tentar estudar um assunto complexo sem um material externo, você provavelmente irá ao encontro de resultados desapontadores.
 
