@@ -1,7 +1,7 @@
 - [Introdução](/)
 - [Antecedentes](background.md)
 - [Começando](getting-started.md)
-- [Studying](studying.md)
+- [Estudando](studying.md)
 - [Adding/Editing](editing.md)
 - [Card Templates](templates/intro.md)
  - [Field Replacements](templates/fields.md)

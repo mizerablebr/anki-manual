@@ -1,14 +1,12 @@
-Studying
+Estudando
 ========
 
-When you have found a deck you like or entered some notes in, it’s time
-to start studying.
+Quando você tiver encontrado um baralho que goste ou adicionado algumas notas, chegou a hora de começar a estudar.
 
-Decks
+Baralhos
 -----
 
-Study in Anki is limited to the currently selected deck as well as any
-subdecks it contains.
+O estudo no Anki é limitado ao baralho que está atualmente selecionado bem como a qualquer sub-baralho que ele contenha.
 
 On the decks screen, your decks will be displayed in a list. There are
 two number columns, 'due' and 'new'. 'Due' is the count of waiting
