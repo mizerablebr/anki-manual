@@ -8,25 +8,15 @@ Baralhos
 
 O estudo no Anki é limitado ao baralho que está atualmente selecionado bem como a qualquer sub-baralho que ele contenha.
 
-On the decks screen, your decks will be displayed in a list. There are
-two number columns, 'due' and 'new'. 'Due' is the count of waiting
-reviews and cards currently in learning. 'New' is the number of new
-cards that are ready to be learnt that day.
+Na tela dos baralhos, seus baralhos serão exibidos em uma lista. Nela há duas colunas numéricas: 'pendente' e 'novo'. 'Pendente' é a contagem de cartões em estudo que está aguardando revisão. 'Novo' é o número de cartões novos que estão prontos para serem estudados naquele dia.
 
-When you click on a deck, it will become the 'current deck', and Anki
-will change to the study screen. You can return to the deck list to
-change the currently selected deck at any time by clicking on “Decks” at
-the top of the main window. (You can also use the Study
-Deck action in the menu to select a new deck from the keyboard, or you
-can press the ‘s’ key to study the currently selected deck.)
+Quando você clica em um baralho ele se tornará o 'baralho atual' e o Anki vai mudar para a tela de estudo. Você pode retornar para a lista de baralhos e mudar o baralho atualmente selecionado a qualquer momento clicando em "Baralhos" no topo da janela principal. (Você também pode usar a ação Estudar Baralho no menu para selecionar um novo deck utilizando o teclado, ou você pode pressionar o botão 's' para estudar o baralho atualmente selecionado)
 
-You can click the gears button to the right of a deck to rename or
-delete a deck, change its options, or [export](exporting.md) it.
+Você pode pressionar o botão de engrenagem no lado direito do baralho para renomeá-lo, apagá-lo, mudar suas opções ou exportá-lo.
 
-When a deck has subdecks, the cards will appear from [each deck in
-turn](studying.md#display-order).
+Quando um baralho tem sub-baralhos, os cartões destes aparecerão conjuntos [cada baralho por vez](studying.md#display-order).
 
-Study Overview
+Visão Geral do Estudo
 --------------
 
 After clicking on a deck to study, you’ll see a screen that shows you
