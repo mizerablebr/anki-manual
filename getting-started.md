@@ -19,7 +19,7 @@ Se o YouTube está indisponível em seu país, como alternativa você pode [baix
 
 ### Cartões
 
-O par composto por uma pergunta e uma resposta é chamado de 'cartão'. Isso é baseado em cartões de estudo de papel cujo a frente possui uma pergunta e o verso possui a resposta. No Anki, o cartão não se parece propriamente com o cartão físico, e quando você exibe a resposta a pergunta ainda fica visível por padrão. Por exemplo, se você está estudando química básica, você pode ver uma pergunta como esta:
+O par composto por uma pergunta e uma resposta é chamado de 'cartão'. Isso é baseado em cartões de estudo de papel cuja frente possui uma pergunta e o verso possui a resposta. No Anki, o cartão não se parece propriamente com o cartão físico, e quando você exibe a resposta a pergunta ainda fica visível por padrão. Por exemplo, se você está estudando química básica, você pode ver uma pergunta como esta:
 
     P: Símbolo químico do oxigênio?
 
