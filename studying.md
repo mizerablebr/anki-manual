@@ -19,83 +19,46 @@ Quando um baralho tem sub-baralhos, os cartões destes aparecerão conjuntos [ca
 Visão Geral do Estudo
 --------------
 
-After clicking on a deck to study, you’ll see a screen that shows you
-how many cards are due today. This is called the 'deck overview' screen.
-The cards are split into three types:
+Depois de clicar num baralho para estudá-lo, você verá uma tela que demonstra quantos cartões estão pendentes no dia de hoje. Isso é chamado de tela de 'visão geral'.
+Os cartões são divididos em três tipos:
 
--   **New** refers to cards that you have downloaded or entered in, but
-    have never been studied before.
+-   **Novo** refere-se aos cartões que você baixou ou inseriu, mas que nunca foram estudados antes.
+    
+-   **Estudando** faz referência aos cartões que foram vistos pela primeira vez recentemente e continuam sendo estudados.
+    
+-   **A rever** diz respeito aos cartões que foram previamente estudados e agora precisam ser revisados para que você não os esqueça.
 
--   **Learning** refers to cards that were seen for the first time
-    recently, and are still being learnt.
+Para iniciar uma sessão de estudo, clique no botão **Estudar Agora**. O Anki irá proceder para exibir-lhe cartões até que acabem aqueles a serem exibidos no dia.
 
--   **To Review** refers to cards that were previously learnt, and now
-    need to be reviewed so you don’t forget them.
+Enquanto estiver estudando, você pode retornar à visão geral ao pressionar a tecla “s” no seu teclado.
 
-To start a study session, click the **Study Now** button. Anki will
-proceed to show you cards until the cards to be shown for the day have
-run out.
-
-While studying, you can return to the overview by pressing the “s” key
-on your keyboard.
-
-Questions
+Questões
 ---------
 
-When a card is shown, only the question is shown at first. After
-thinking about the answer, either click the **Show Answer** button, or
-press the spacebar. The answer will then be shown. It’s okay if it takes
-you a little while to recall the answer, but as a general rule if you
-can’t answer within about 10 seconds, it’s probably better to give up
-and show the answer than keep struggling to remember.
+Quando um cartão é exibido, apenas a questão é apresentada primeiro. Depois de pensar sobre a resposta, você tanto pode clicar no botão **Mostrar Resposta**, quando pressionar a barra de espaço no teclado. A resposta então será exibida. Está tudo bem se você precisar de algum tempo para lembrar da resposta, mas via de regra se você não puder responder dentro de 10 segundos, provavelmente é melhor você desistir e exibir a resposta do que ficar sofrendo para recordá-la.
 
-When the answer is shown, you should compare the answer you thought of
-with the answer which is shown and tell Anki how well you remembered. If
-you don’t trust yourself to compare your answer accurately, you can ask
-Anki to [prompt you to type in the answer](templates/fields.md#checking-your-answer) rather than
-just showing it to you.
+Quando a resposta é apresentada, você deve comparar a resposta que você pensou com a resposta que foi exibida e informar ao Anki o qual bem você lembrou. Se você não tem confiança em comparar sua resposta com exatidão, você pode pedir que o Anki [solicite que você digite a resposta](templates/fields.md#checking-your-answer) ao invés de apenas exibir para você.
 
-The number of buttons available for grading depends on whether the card
-is being 'learnt' or 'reviewed'.
+O número de botões disponíveis para avaliar a resposta depende se o cartão está sendo 'aprendido' ou 'revisado'.
 
-Learning
+Aprendizagem
 --------
 
-When learning new cards, or when relearning cards that you have
-forgotten, Anki will show you the cards one or more times to help you
-memorize them. Each time is called a 'learning step'. By default there
-are two steps: 1 minute and 10 minutes. You can change the number of
-steps and the delays between them in the [deck options](deck-options.md).
+Seja aprendendo novos cartões, seja revisando cartões que você tenha esquecido, o Anki irá exibir os cartões uma ou mais vezes para ajudá-lo a memorizá-los. Cada passo desse é chamado de 'etapa de aprendizado'. Por padrão há duas etapas: 1 minuto e 10 minutos. Você pode mudar o número de etapas e o intervalo entre elas nas [opções do baralho](deck-options.md).
 
-There are three rating buttons when learning:
+Há três botões de classificação quando estiver estudando:
 
-**Again** moves the card back to the first step.
+**Errei** move o cartão de volta para a primeira etapa.
 
-**Good** moves the card to the next step. If the card was on the final
-step, the card is converted into a review card (it 'graduates'). By
-default, once the card has reached the end of the learning steps, the
-card will be shown again the next day, then at increasingly long delays
-(see the next section).
+**Bom** coloca o cartão na próxima etapa. Se o cartão já estiver na última etapa, então ele será convertido num cartão de revisão (ele é promovido). Por padrão, uma vez que o cartão tenha alcançado o fim das etapas de aprendizagem, o cartão será novamente exibido no próximo dia, e então sucessivamente em intervalos cada vez mais longos (veja a próxima seção).
 
-**Easy** immediately converts the card into a review card, even if there
-were steps remaining. By default, the card will be shown again 4 days
-later, and then at increasingly long delays. The easy button will not be
-shown if you are in relearning mode and it would give the same interval
-as “good.”
+**Fácil** o cartão é imediatamente convertido em cartão de revisão, mesmo que ainda lhe faltem etapas. Por padrão, o cartão será exibido novamente 4 dias mais tarde, e então em intervalos cada vez mais longos. O botão Fácil não será exibido se você estiver no modo recordação e ele dará o mesmo intervalo que o botão "Bom".
 
-When cards are seen for the first time, they start at step one. This
-means answering **Good** on a card for the first time will show it one
-more time in 10 minutes, and the initial 1 minute step will be skipped.
-If you push Again, though, the card will come back in 1 minute.
+Quando os cartões são vistos pela primeira vez, eles começam na primeira etapa. Isso quer dizer que ao responder  **Bom** a um cartão pela primeira vez, ele será exibido novamente em 10 minutos, e a etapa inicial de um minuto será saltada. Entretanto, de você pressionar Errei o cartão será exibido novamente em 1 minuto.
 
-You can use the 1, 2 and 3 keys on your keyboard to select a particular
-button, where 1 is **Again**. Pressing the spacebar will select
-**Good**.
+Você pode usar as teclas 1, 2 e 3 do seu teclado para selecionar um dos botões, onde 1 representa **Errei**. Pressionar a barra de espaço deu teclado irá selecionar **Bom**.
 
-If there are no other cards to show you, Anki will show learning cards
-again even if their delay has not elapsed completely. If you’d prefer to
-wait the full learning delay, you can change this behaviour in the
-[preferences](preferences.md).
+Se não houver cartões a serem exibidos para você, o Anki irá exibir novamente os cartões de aprendizado mesmo que o intervalo deles não tenha decorrido completamente. Se você preferir esperar o intervalo completo de aprendizado, você pode modificar esse comportamento nas [preferências](preferences.md).
 
 Reviewing
 ---------
