@@ -75,31 +75,18 @@ Quando um cartão foi anteriormente aprendido e está pronto para ser revisado n
 
 De igual modo como quando estudando os cartões, você pode utilizar os números de 1 a 4 do teclado para selecionar uma resposta. Pressionar a barra de espaço selecionará 'Bom'.
 
-Due Counts
+Contagem de Pendências
 ----------
 
-When only the question is shown, Anki shows three numbers like 12 + 34 +
-56 at the bottom of the screen. These represent the new cards, cards in
-learning, and cards to review. If you’d prefer not to see the numbers,
-you can turn them off in Anki’s preferences.
+Quando apenas a pergunta é exibida, o Anki exibe três números parecidos com 12 + 34 + 56 na parte inferior da tela. Eles representam a contagem de novos cartões, cartões sendo estudados e cartões a revisar. Se você preferir não ver esses números, você pode desativar-los nas preferências do Anki.
 
-In the old scheduler, the numbers count *reviews* needed to finish all the 
-cards in that queue, not the number of *cards*. If you have multiple
-steps configured for lapsed cards, the number will increase by more than 
-one when you fail a card, since that card needs to be shown several times.
+No agendador antigo, os números do contador de *revisão* denotam os cartões que precisam ser finalizados na fila, não o número total de *cartões*. Se você tiver múltiplas etapas configuradas para cartões com falha, o número irá crescer em mais de um quando você falhar um cartão, já que o cartão precisa ser exibido algumas vezes.
 
-In the new scheduler, the numbers count *cards*, so the number will always
-increase by one regardless of the steps remaining.
+No novo agendador, os números equivalem a *cartões*, então o número irá sempre crescer um por um, independentemente do número de etapas restantes.
 
-When the answer is shown, Anki shows an estimate of the next time a card
-will be shown above each button. If you’d prefer not to see the
-estimates, you can disable them in Anki’s [preferences](preferences.md).
+Quando a resposta é exibida, o Anki exibe uma estimativa de quando o cartão será exibido da próxima vez sobre cada um dos botões. Se você preferir não ver essas estimativas, você pode desabilitá-las nas [preferencias](preferences.md) do Anki.
 
-Anki additionally adds a small amount of random variation to the next
-due times, in order to prevent cards that were introduced together and
-always rated the same from always staying next to each other. This
-variation is not shown on the time estimates but will be applied after
-selecting the button.
+Além disso o Anki adiciona uma pequena quantidade de variação aleatória nos próximos períodos, isso para evitar que os cartões sejam introduzidos juntos e sempre avaliados da mesma forma por sempre estarem próximos uns dos outros. Essa variação não é exibida nos tempos estimados mas será aplicada depois da seleção do botão.
 
 Editing and More
 ----------------
