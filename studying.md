@@ -60,34 +60,20 @@ Você pode usar as teclas 1, 2 e 3 do seu teclado para selecionar um dos botões
 
 Se não houver cartões a serem exibidos para você, o Anki irá exibir novamente os cartões de aprendizado mesmo que o intervalo deles não tenha decorrido completamente. Se você preferir esperar o intervalo completo de aprendizado, você pode modificar esse comportamento nas [preferências](preferences.md).
 
-Reviewing
+Revisando
 ---------
 
-When a card has been previously learnt and is ready to be reviewed
-again, there are four buttons to rate your answer:
+Quando um cartão foi anteriormente aprendido e está pronto para ser revisado novamente, haverá quatro botões para avaliar sua resposta:
 
-**Again** marks your answer as incorrect and asks Anki to show the card
-more frequently in the future. The card is said to have 'lapsed'. Please
-see the [lapses](deck-options.md) section for more information about how lapsed
-reviews are handled.
+**Errei** marca sua resposta como incorreta e pede ao Anki que exiba o cartão com mais frequência no futuro. O cartão é considerado como 'falha' de memória. Por favor veja a seção [falhas](deck-options.md) para saber mais sobre como os cartões com falha são tratados.
 
-**Hard** shows the card at a slightly longer delay than last time, and
-tells Anki to show the card more frequently in the future.
+**Difícil** exibe o cartão num período um pouco menor de tempo do que da última vez, e diz ao Anki para exibí-lo mais frequentemente no futuro.
 
-**Good** tells Anki that the last delay was about right, and the card
-easiness doesn’t need to be adjusted down or up. At the default starting
-easiness, the card will be shown again approximately 2 1/2 times longer
-than the previous time, so if you had waited 10 days to see the card
-previously, the next delay would be about 25 days.
+**Bom** informa ao Anki que o último intervalo de tempo foi adequado e a facilidade do cartão não exige ajuste para mais ou para menos. No padrão inicial de facilidade, o cartão será exibido novamente 2,5 vezes mais tarde do que da vez anterior, de modo que caso tenha anteriormente esperado 10 dias para visualizar o cartão, da próxima vez a espera será por volta de 25 dias.
 
-**Easy** tells Anki you found the delay too short. The card will be
-scheduled further into the future than 'Good', and Anki will schedule
-the card less frequently in the future. Because 'Easy' rapidly increases
-the delay, it’s best used for only the easiest of cards. Usually you
-should find yourself answering 'Good' instead.
+**Fácil** diz ao Anki que você acho o intervalo muito curto. O cartão será agendado para um futuro mais distante do que quando escolhida o botão 'Bom', além de que no futuro o Anki irá agendar o cartão numa frequência menor. Pelo fato de 'Fácil' aumentar rapidamente o intervalo, ele é melhor utilizado apenas nos cartões mais fáceis. Ao invés dele, na maior parte do tempo você deve se encontrar respondendo 'Bom'.
 
-As with learning cards, you can use 1-4 on the keyboard to select an
-answer. Pressing the spacebar will select 'Good'.
+De igual modo como quando estudando os cartões, você pode utilizar os números de 1 a 4 do teclado para selecionar uma resposta. Pressionar a barra de espaço selecionará 'Bom'.
 
 Due Counts
 ----------
