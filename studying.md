@@ -88,33 +88,20 @@ Quando a resposta é exibida, o Anki exibe uma estimativa de quando o cartão se
 
 Além disso o Anki adiciona uma pequena quantidade de variação aleatória nos próximos períodos, isso para evitar que os cartões sejam introduzidos juntos e sempre avaliados da mesma forma por sempre estarem próximos uns dos outros. Essa variação não é exibida nos tempos estimados mas será aplicada depois da seleção do botão.
 
-Editing and More
+Editando e Mais
 ----------------
 
-You can click the **Edit** button in the bottom left to edit the current
-note. When you finish editing, you’ll be returned to study. The editing
-screen works very similarly to the [add notes](editing.md) screen.
+Você pode clicar no botão **Editar** na parte inferior esquerda para editar a nota atual. Quando terminar a edição, você retornará ao estudo. A tela de edição funciona semelhantemente à tela [Adicionar Notas](editing.md).
 
-At the bottom right of the review screen is a button labeled **More**.
-This button provides some other operations you can do on the current
-card or note:
+Na parte inferior direita da tela de revisão há um botão entitulado **Mais**.
+Este botão disponibiliza algumas outras operações que você pode fazer no cartão ou nota atuais:
 
-Mark Note  
-Adds a “marked” tag to the current note, so it can be easily found in
-the browser. This is useful when you want to take some action on the
-note at a later date, such as looking up a word when you get home.
-Marked cards also show a small star in the upper-right-hand corner
-during reviews.
+Marcar Nota  
+Adiciona uma etiqueta “marcado” à nota atual, de modo que seja mais fácil encontrá-la no navegador. Isso lhe será útil quando quiser fazer algo com a nota mais tarde, como procurar por uma palavra quando chegar em casa. Cartões marcados também exibem uma pequena estrela no canto extremo superior direito durante as revisões.
 
-Bury Card / Note  
-Hides a card or all of the note’s cards from review until the next day.
-(If you want to unbury cards before then, you can click the “unbury”
-button on the [deck overview](studying.md#study-overview) screen.) This is useful if
-you cannot answer the card at the moment or you want to come back to it
-another time. Burying can also [happen automatically](studying.md#siblings-and-burying) for
-cards of the same note. If cards were in learning when they are buried,
-they are moved back to the new card queue or review queue prior to being
-buried.
+Ocultar Cartão / Nota  
+Retira da revisão o cartão ou todos os cartões da nota até o próximo dia.
+(Se você quiser desocultar os cartões antes disso, você pode fazê-lo clicando no botão “desocultar” na parte inferior da tela de [Visão Geral do Baralho](studying.md#visão-geral-do-estudo).) É conveniente para quando você não pode responder o cartão naquele momento ou deseja voltar para ele numa outra ocasião. A ocultação também pode [acontecer automaticamente](studying.md#siblings-and-burying) para cartões de uma mesma nota. Se cartões estiverem sendo aprendidos quando eles foram ocultados, eles são devolvidos para as filas "cartões novos" ou "revisão" antes de serem ocultados.
 
 Suspend Card / Note  
 Hides a card or all of the note’s cards from review until they are
