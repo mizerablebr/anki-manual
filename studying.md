@@ -14,7 +14,7 @@ Quando você clica em um baralho ele se tornará o 'baralho atual' e o Anki vai 
 
 Você pode pressionar o botão de engrenagem no lado direito do baralho para renomeá-lo, apagá-lo, mudar suas opções ou exportá-lo.
 
-Quando um baralho tem sub-baralhos, os cartões destes aparecerão conjuntos [cada baralho por vez](studying.md#display-order).
+Quando um baralho tem sub-baralhos, os cartões destes aparecerão conjuntos [cada baralho por vez](studying.md#ordem-de-exibição).
 
 Visão Geral do Estudo
 --------------
@@ -101,24 +101,19 @@ Adiciona uma etiqueta “marcado” à nota atual, de modo que seja mais fácil 
 
 Ocultar Cartão / Nota  
 Retira da revisão o cartão ou todos os cartões da nota até o próximo dia.
-(Se você quiser desocultar os cartões antes disso, você pode fazê-lo clicando no botão “desocultar” na parte inferior da tela de [Visão Geral do Baralho](studying.md#visão-geral-do-estudo).) É conveniente para quando você não pode responder o cartão naquele momento ou deseja voltar para ele numa outra ocasião. A ocultação também pode [acontecer automaticamente](studying.md#siblings-and-burying) para cartões de uma mesma nota. Se cartões estiverem sendo aprendidos quando eles foram ocultados, eles são devolvidos para as filas "cartões novos" ou "revisão" antes de serem ocultados.
+(Se você quiser desocultar os cartões antes disso, você pode fazê-lo clicando no botão “desocultar” na parte inferior da tela de [Visão Geral do Baralho](studying.md#visão-geral-do-estudo).) É conveniente para quando você não pode responder o cartão naquele momento ou deseja voltar para ele numa outra ocasião. A ocultação também pode [acontecer automaticamente](studying.md#irmãos-e-ocultação) para cartões de uma mesma nota. Se cartões estiverem sendo aprendidos quando eles foram ocultados, eles são devolvidos para as filas "cartões novos" ou "revisão" antes de serem ocultados.
 
-Suspend Card / Note  
-Hides a card or all of the note’s cards from review until they are
-manually unsuspended (by clicking the suspend button in the browser).
-This is useful if you want to avoid reviewing the note for some time,
-but don’t want to delete it. If cards were in learning when they are
-suspended, they are moved back to the new card queue or review queue
-prior to being suspended.
+Suspender Cartão / Nota  
+Retira da revisão o cartão ou todos os cartões da nota até que eles sejam manualmente restabelecidos ( ao clicar no botão de suspender no navegador). É útil quando você tem interesse em deixar de revisar determinada nota por um tempo, mas não quer apagá-la. Se os cartões estiverem sendo aprendidos quando eles forem suspensos, eles serão devolvidos para as filas "cartões novos" ou "revisão" antes de serem suspensos.
 
-Delete Note  
-Deletes the note and all of its cards.
+Apagar Nota  
+Apaga a nota e todos os seus cartões.
 
-Options  
-Edit the options for the current deck.
+Opções  
+Edita as opções do baralho atual.
 
-Replay Audio  
-If the card has audio on the front or back, play it again.
+Repetir Audio  
+Se o cartão possui um áudio na frente ou no verso, toca ele novamente.
 
 Record Own Voice  
 Record from your microphone for the purposes of checking your
@@ -130,7 +125,7 @@ Replay Own Voice
 Replay the previous recording of your voice (presumably after showing
 the answer).
 
-Display Order
+Ordem de Exibição
 -------------
 
 Studying will show cards from the selected deck and any decks it
@@ -163,7 +158,7 @@ cards from ordered to random order, please see the [deck
 options](deck-options.md). For more fine-grained ordering of new cards, you
 can change the order in the [browser](browsing.md).
 
-Siblings and Burying
+Irmãos e Ocultação
 --------------------
 
 Recall from [the basics](getting-started.md) that Anki can create more than one
