@@ -4,17 +4,17 @@ Anki é um programa que torna relembrar fácil. Isso porque ele é muito mais ef
 
 Qualquer pessoa que precisa lembrar de algo em sua rotina diária pode se beneficiar do Anki. Já que ele é independente de conteúdo e suporta imagens, áudio, vídeos e marcação científica (via LaTeX) as possibilidades são ilimitadas. Por exemplo:
 
--   aprendendo línguas
+-   Aprender novos idiomas
 
--   estudando para exames da ordem dos médicos e dos advogados
+-   Estudar para exames da ordem dos médicos e dos advogados
 
--   memorizando nomes e rostos de pessoas
+-   Memorizar nomes e rostos de pessoas
 
--   revisar geografia
+-   Revisar geografia
 
--   dominando poemas longos
+-   Dominar poemas longos
 
--   até mesmo praticando acordes de violão
+-   E até mesmo praticar acordes de violão
 
 Há dois conceitos simples por trás do Anki: 'teste de recordação ativa' e
 'repetição espaçada'. Eles não são conhecidos pela maioria dos estudantes, apesar de terem sido descritos na literatura científica por tantos anos. Compreender como eles funcionam irá fazê-lo um estudante mais eficaz.
