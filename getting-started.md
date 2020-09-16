@@ -2,7 +2,7 @@
 
 ## Vídeos
 
-Para se dubruçar rapidamente no Anki, por favor confira esses vídeos introdutórios. Eles foram produzidos com uma versão anterior do Anki, mas o conceito é o mesmo.
+Para se debruçar rapidamente no Anki, por favor confira esses vídeos introdutórios. Eles foram produzidos com uma versão anterior do Anki, mas o conceito é o mesmo.
 
 -   [Baralhos compartilhados e Revisando o básico](http://www.youtube.com/watch?v=QS2G-k2hQyg&yt:cc=on)
     
@@ -19,11 +19,11 @@ Se o YouTube está indisponível em seu país, como alternativa você pode [baix
 
 ### Cartões
 
-O par composto por uma pergunta e uma resposta é chamado de 'cartão'. Isso é baseado em cartões de estudo de papel cujo anverso possui uma pergunta e o verso possui a resposta. No Anki o cartão não se parece propriamente com o cartão físico, e quando você exibe a resposta a pergunta ainda fica visível por padrão. Por exemplo, se você está estudando química básica, você pode ver uma pergunta como esta:
+O par composto por uma pergunta e uma resposta é chamado de 'cartão'. Isso é baseado em cartões de estudo de papel cuja frente possui uma pergunta e o verso possui a resposta. No Anki, o cartão não se parece propriamente com o cartão físico, e quando você exibe a resposta a pergunta ainda fica visível por padrão. Por exemplo, se você está estudando química básica, você pode ver uma pergunta como esta:
 
     P: Símbolo químico do oxigênio?
 
-Depois de pensar sobre isso e decidir que a resposta é O, você pressiona o botão exibir resposta e o Anki exibe para você:
+Depois de pensar sobre isso e decidir que a resposta é O, você pressiona o botão "exibir resposta" e o Anki exibe para você:
 
     P: Símbolo químico do oxigênio?
     R: O
@@ -32,29 +32,29 @@ Depois de confirmar que você está certo, você pode informar ao Anki o quão f
 
 ### Baralho
 
-Um 'baralho' é um grupo de cartões. Você pode colocar cartões em baralhos diferentes para estudar partes da sua coleção de cartões ao invés de estudar tudo de uma vez. Cada baralho pode ter configurações distintas, como quantos cartões novos exibir por dia, ou quanto tempo esperar até que os cartões seja exibidos novamente.
+Um 'baralho' é um grupo de cartões. Você pode colocar cartões em baralhos diferentes para estudar partes da sua coleção de cartões ao invés de estudar tudo de uma vez. Cada baralho pode ter configurações distintas, como quantos cartões novos exibir por dia, ou quanto tempo esperar até que os cartões sejam exibidos novamente.
 
-Baralhos podem conter outros baralhos, o que lhe permite organizá-los como uma árvore. Anki usa “::” para exibir os diferentes níveis. Um baralho chamado “Chinês::Hanzi” se refere ao baralho “Hanzi”, que faz parte do baralho “Chinês”. Se você selecionar “Hanzi” então apenas os cartões Hanzi serão exibidos; se você selecionar “Chinês” então todos os cartões chineses, inclusive os cartões Hanzi, serão exibidos.
+Baralhos podem conter outros baralhos, o que lhe permite organizá-los como uma árvore. Anki usa “::” para exibir os diferentes níveis. Um baralho chamado “Chinês::Hanzi” se refere ao baralho “Hanzi”, que faz parte do baralho “Chinês”. Se você selecionar “Hanzi” então apenas os cartões de "Hanzi" serão exibidos; se você selecionar “Chinês” então todos os cartões chineses, inclusive os cartões de "Hanzi", serão exibidos.
 
-Para colocar um baralho em árvore, você tanto pode nomeá-los com “::” entre cada nível, ou da lista de baralhos arrastar e soltar eles. Baralhos que foram estruturados sob um outro baralho (ou seja, tem ao menos um “::” em seus nomes) são geralmente chamados de 'sub-baralhos', e os baralhos do topo da árvore às vezes são chamados de 'superbaralhos' or 'baralhos pai'.
+Para colocar um baralho em árvore, você tanto pode nomeá-los com “::” entre cada nível, ou da lista de baralhos arrastar e soltar eles. Baralhos que foram estruturados sob um outro baralho (ou seja, tem ao menos um “::” em seus nomes) são geralmente chamados de 'sub-baralhos', e os baralhos do topo da árvore às vezes são chamados de 'superbaralhos' ou 'baralhos pais'.
 
-Anki começa com um baralho chamado “padrão”; qualquer cartão que de alguma forma tenha sido separado de outros baralhos irá para ele. Anki irá esconder o baralho padrão caso não contenha cartões e você tenha adicionado novos baralhos. Alternativamente, você pode renomeá-lo e usá-lo para outros cartões.
+O Anki começa com um baralho chamado “padrão”; qualquer cartão que de alguma forma tenha sido separado de outros baralhos irá para ele. O Anki irá esconder o baralho padrão caso não contenha cartões e você tenha adicionado novos baralhos. Alternativamente, você pode renomeá-lo e usá-lo para outros cartões.
 
-Baralhos são melhor utilizados para agrupar categorias amplas de cartões, so invés de tópicos específicos como “verbos alimentares” ou “lição 1”. Para mais informações nesse sentido, por favor consulte a seção [usando baralhos adequadamente](editing.md#using-decks-appropriately).
+Baralhos são melhor utilizados para agrupar categorias amplas de cartões, ao invés de tópicos específicos como “verbos alimentares” ou “lição 1”. Para mais informações nesse sentido, por favor consulte a seção [usando baralhos adequadamente](editing.md#using-decks-appropriately).
 
 Para informações sobre como o baralho afeta a ordem de exibição dos cartões, por favor consulte a seção [ordem de exibição](studying.md#display-order).
 
 ### Notas & Campos
 
-Ao fazer cartões de estudo, é frequentemente desejável que seja feito mais de um cartão com referência a dada informação. Por exemplo, se você está aprendendo lingua francesa e você aprendeu que  a palavra “bonjour” significa “olá”, você pode querer criar um cartão que exiba “bonjour” e o demande por lembrar “olá”, e um outro cartão que exiba “olá” e requeira que você lembre de “bonjour”. Um cartão está testando sua habilidade em reconhecer a palavra estrangeira e o outro cartão está testando sua habilidade em produzir-la.
+Ao fazer cartões de estudo, é frequentemente desejável que seja feito mais de um cartão com referência a dada informação. Por exemplo, se você está aprendendo a lingua francesa e você aprendeu que  a palavra “bonjour” significa “olá”, você pode querer criar um cartão que exiba “bonjour” e o demande por lembrar “olá”, e um outro cartão que exiba “olá” e requeira que você lembre de “bonjour”. Um cartão está testando sua habilidade em reconhecer a palavra estrangeira e o outro cartão está testando sua habilidade em produzi-la.
 
-Enquanto usa cartões de memória em papel, sua única opção neste caso é tomar nota dessa informação duas vezes, uma para cada cartão. Alguns programas de computador de cartões de estudo tornam sua vida mais fácil ao oferecer uma funcionalidade de girar o anverso e o verso. Isso é um aperfeiçoamento do situação do papel, mas há duas grandes desvantagens:
+Enquanto usa cartões de memória em papel, sua única opção neste caso é tomar nota dessa informação duas vezes, uma para cada cartão. Alguns programas de computador de cartões de estudo tornam sua vida mais fácil ao oferecer uma funcionalidade de girar a frente e o verso. Isso é um aperfeiçoamento da situação do papel, mas há duas grandes desvantagens:
 
 -   Pelo motivo desses programas não acompanharem sua performance de reconhecimento e produção separadamente, os cartões tenderão a não serem exibidos para você no momento ótimo, significa dizer que você esquecerá mais do que gostaria ou estudará mais do que o necessário.
     
 -   Inverter a pergunta e a resposta apenas funciona quando você quer exatamente o mesmo conteúdo em cada lado. Isso significa, por exemplo, que não é possível exibir informação extra no verso de cada cartão.
 
-Anki resolve esses problemas ao permitir que você divida o conteúdo dos seus cartões em pedaços de informação separados. Você pode então dizer ao Anki que pedaço da informação você quer em cada cartão e o Anki irá tomar conta da criação do cartões para você e atualizá-los se você fizer qualquer edição no futuro.
+O Anki resolve esses problemas ao permitir que você divida o conteúdo dos seus cartões em pedaços de informação separados. Você pode então dizer ao Anki que pedaço da informação você quer em cada cartão e o Anki irá tomar conta da criação dos cartões para você e atualizá-los se você fizer qualquer edição no futuro.
 
 Imagine que nós queiramos estudar o vocabulário francês e nossa vontade é de que o número da página esteja incluído no verso de cada cartão. Nós queremos nossos cartões com a seguinte aparência:
 
@@ -80,7 +80,7 @@ Para adicionar e editar campos, pressione o botão “Campos…​” quando est
 
 ### Tipos de Cartões
 
-Para que o Anki possa criar cartões baseados em nossas anotações, nós precisamos fornecer um diagrama descrevendo quais campos devem ser exibidos no anverso ou no verso de cada cartão. Esse diagrama é chamado 'tipo de cartão'. Cada tipo de nota pode ter um ou mais tipo de cartão; quando você adiciona uma nota o Anki irá criar um cartão para cada tipo de cartão.
+Para que o Anki possa criar cartões baseados em nossas anotações, nós precisamos fornecer um diagrama descrevendo quais campos devem ser exibidos na frente ou no verso de cada cartão. Esse diagrama é chamado 'tipo de cartão'. Cada tipo de nota pode ter um ou mais tipos de cartão; quando você adiciona uma nota o Anki irá criar um cartão para cada tipo de cartão.
 
 Cada tipo de cartão tem dois 'modelos', um para a pergunta e outro para a resposta. No exemplo de Língua Francesa acima, nós queremos que o cartão de reconhecimento se pareça com isso:
 
@@ -94,28 +94,28 @@ Para fazer isso, nós podemos configurar o modelo de pergunta e resposta assim:
     R: {{Língua Portuguesa}}<br>
        Página #{{Página}}
 
-Ao circundar um nome de campo com caves duplas nós informamos ao Anki que ele deve substituir aquela seção com a informação do campo. Qualquer coisa que não esteja circundada por chaves duplas permanece como está em cada cartão (por exemplo, nós não precisamos digitar “Página \#” no campo Página quando estamos adicionando material – isso é adicionado automaticamente em todo cartão.) &lt;br&gt; é um código especial que avisa ao Anki que ele deve ir para a próxima linha; mais detalhes estão disponíveis na seção [modelos](templates/intro.md).
+Ao circundar um nome de campo com chaves duplas nós informamos ao Anki que ele deve substituir aquela seção com a informação do campo. Qualquer coisa que não esteja circundada por chaves duplas permanece como está em cada cartão (por exemplo, nós não precisamos digitar “Página \#” no campo Página quando estamos adicionando material – isso é adicionado automaticamente em todo cartão.) &lt;br&gt; é um código especial que avisa ao Anki que ele deve ir para a próxima linha; mais detalhes estão disponíveis na seção [modelos](templates/intro.md).
 
-Os modelos de produção de cartão funcionam funcionam de uma forma semelhante:
+Os modelos de produção de cartão funcionam de uma forma semelhante:
 
     P: {{Língua Portuguesa}}
     R: {{Língua Francesa}}<br>
        Página #{{Página}}
 
-Uma vez que um tipo de cartão tenha sido criado, toda vez que você adicionar uma nova nota, um cartão será criado baseado no tipo de cartão. Tipos de cartão tornam mais fácil manter a formação dos seus cartões consistente e pode diminuir bastante o esforço necessário para adicionar informações. Eles também significam que o Anki pode garantir que cartões relacionados não irão aparecer muito próximo uns dos outros, e eles permitem que você corrija um erro de digitação ou erro de fato apenas uma vez e todos os cartões relacionados serão atualizados de uma vez.
+Uma vez que um tipo de cartão tenha sido criado, toda vez que você adicionar uma nova nota, um cartão será criado baseado no tipo de cartão. Tipos de cartão tornam mais fácil manter a formação dos seus cartões consistente e pode diminuir bastante o esforço necessário para adicionar informações. Eles também significam que o Anki pode garantir que cartões relacionados não irão aparecer muito próximos uns dos outros, e eles permitem que você corrija um erro de digitação ou um erro de fato apenas uma vez e todos os cartões relacionados serão atualizados de uma vez.
 
 Para adicionar ou editar tipos de cartão, pressione o botão “Cartões…​” enquanto estiver adicionando ou editando uma nota. Para mais informações sobre tipos de cartão, por favor verifique a seção [Cartões e Modelos](templates/intro.md).
 
 ### Tipos de Notas
 
-Anki permite que você crie diferentes tipos de notas para diferentes materiais. Cada tipo de nota possui seu próprio conjunto de campos e tipos de carta. É recomendado criar um tipo de nota separado para cada grande tópico que esteja estudando. No exemplo de Língua Francesa acima, nós devemos criar para ele um tipo de nota chamado “Língua Francesa”. Se quisermos aprender sobre capitais, nós poderíamos criar também para isso um tipo de nota separado, com campos como “País” e “Capital”.
+O Anki permite que você crie diferentes tipos de notas para diferentes materiais. Cada tipo de nota possui seu próprio conjunto de campos e tipos de carta. É recomendado criar um tipo de nota separado para cada grande tópico que esteja estudando. No exemplo de Língua Francesa acima, nós devemos criar para ele um tipo de nota chamado “Língua Francesa”. Se quisermos aprender sobre capitais, nós poderíamos criar também para isso um tipo de nota separado, com campos como “País” e “Capital”.
 
 Quando o Anki verifica se existem duplicatas, ele apenas compara com outras notas do mesmo tipo. Assim, se você adicionar uma capital chamada “Laranja” usando o tipo de nota capitais, você não verá a mensagem de nota duplicada quando chegar a hora de aprender como falar “Laranja” em Língua Francesa.
 
 Quando você adiciona uma coleção nova, o Anki automaticamente acrescenta nela alguns tipos de notas padrão. Esses tipos de notas são fornecidos para tornar o Anki mais simples para novos usuários, mas com o passar do tempo é recomendado que você defina seus próprios tipos de nota para o conteúdo que esteja estudando. Os tipos de nota padrão são os seguintes:
 
 Básico  
-Possui os campos Frente e Verso e criará um cartão. O texto que for digitado em Frente aparecerá no anverso do cartão, e o texto digitado em Verso aparecerá no verso do cartão.
+Possui os campos Frente e Verso e criará um cartão. O texto que for digitado em Frente aparecerá na frente do cartão, e o texto digitado em Verso aparecerá no verso do cartão.
 
 Básico (e cartão invertido)  
 Como o básico, só que cria dois cartões com as informações que você digita: um para 
