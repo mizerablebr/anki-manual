@@ -34,14 +34,14 @@ Anki vai mostrar o nome de cada campo entre parênteses no lugar do conteúdo.
 Na parte superior direita da janela existe um botão de Opções que te
 dá a opção de renomear ou reordenar os cartões, além das duas seguintes opções:
 
--   A opção de 'Substituição de Baralho' te permite mudar o baralho no qual
-    cartões gerados no atual tipo de cartão vão ser colocados. Por padrão,
-    cartões são colocados dentro do baralho que você especificou, ao invés
-    do baralho listado na janela de Adicionar Notas. Isto pode ser útil se
-    você quiser separar cartões em diferentes baralhos (por exemplo, quando
-    estiver estudando uma língua, colocar cartões de reprodução em um baralho
-    e de reconhecimento em outro). Você pode checar em qual baralho os cartões
-    estão indo selecionando de novo a opção Substituição de Baralho.
+-   A opção de 'Substituição de Baralho' te permite mudar o baralho em que 
+    cartões do mesmo tipo serão colocados. Por padrão, cartões são colocados 
+    dentro do baralho que você especificou nessa configuração ao invés do baralho 
+    listado enquanto adiciona notas. Isto pode ser útil se você quiser separar 
+    cartões em diferentes baralhos (por exemplo, quando estiver estudando 
+    uma língua, colocar cartões de reprodução em um baralho e de reconhecimento 
+    em outro). Você pode checar para qual baralho os cartões estão indo mudando 
+    de novo a opção Substituição de Baralho.
 
 -   A opção 'Aparência do Navegador' te permite definir diferentes (talvez
     simplificados) modelos para amostra nas colunas de Pergunta e Resposta
