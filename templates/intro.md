@@ -45,5 +45,5 @@ dá a opção de renomear ou reordenar os cartões, além das duas seguintes op�
 
 -   A opção 'Aparência do Navegador' te permite definir diferentes (talvez
     simplificados) modelos para amostra nas colunas de Pergunta e Resposta
-    do navegador; veja [aparência do navegador](templates/styling.md#browser-appearance) para 
-    mais informações.
+    do navegador; veja [aparência do navegador](templates/styling.md#browser-appearance) 
+    para mais informações.
