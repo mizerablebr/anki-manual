@@ -1,11 +1,11 @@
-# Predefinições de Cartões
+# Modelos de Cartões
 
-As prefininições de cartões contam ao Anki quais campos devem aparecer na frente e no
+Os modelos de cartões contam ao Anki quais campos devem aparecer na frente e no
 verso do seu cartão e controlam quais cartões serão gerados quando certos campos têm texto.
-Ajustando suas predefinições de seus cartões, você pode alterar o design e o estilo de muitos
+Ajustando seus modelos de cartões, você pode alterar o design e o estilo de muitos
 dos seus cartões de uma vez só.
 
-Predefinições de cartões são explicadas em alguns dos vídeos introdutórios (em inglês) a seguir:
+Modelos de cartões são explicados em alguns dos vídeos introdutórios (em inglês) a seguir:
 
 -   [Switching Card
     Order](http://www.youtube.com/watch?v=DnbKwHEQ1mA&yt:cc=on)
