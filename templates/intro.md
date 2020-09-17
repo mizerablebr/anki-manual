@@ -1,9 +1,9 @@
 # Modelos de Cartões
 
 Os modelos de cartões contam ao Anki quais campos devem aparecer na frente e no
-verso do seu cartão e controlam quais cartões serão gerados quando certos campos têm texto.
+verso do seu cartão e controlam quais cartões serão gerados quando certos campos contêm texto.
 Ajustando seus modelos de cartões, você pode alterar o design e o estilo de muitos
-dos seus cartões de uma vez só.
+dos seus cartões de uma só vez.
 
 Modelos de cartões são explicados em alguns dos vídeos introdutórios (em inglês) a seguir:
 
@@ -27,14 +27,14 @@ linguagem usada pela internet para estilizar seus sites.
 
 Na direita está uma pré-visualização da frente e do verso do cartão
 selecionado no momento. Se você abriu essa janela enquanto estava adicionando
-uma nota, a pré-visualização vai ser baseada no atual conteúdo daquela nota.
+uma nota, a pré-visualização vai ser baseada no conteúdo atual daquela nota.
 Se você abriu a janela a partir de Ferramentas → Gerenciar Tipos de Notas, o
 Anki vai mostrar o nome de cada campo entre parênteses no lugar do conteúdo.
 
-Na parte superior direita da janela existe um botão de Opções que te
+Na parte superior direita da janela existe um botão de Opções que 
 dá a opção de renomear ou reordenar os cartões, além das duas seguintes opções:
 
--   A opção de 'Substituição de Baralho' te permite mudar o baralho em que 
+-   A opção de 'Substituição de Baralho' permite mudar o baralho em que 
     cartões do mesmo tipo serão colocados. Por padrão, cartões são colocados 
     dentro do baralho que você especificou nessa configuração ao invés do baralho 
     listado enquanto adiciona notas. Isto pode ser útil se você quiser separar 
@@ -43,7 +43,7 @@ dá a opção de renomear ou reordenar os cartões, além das duas seguintes op�
     em outro). Você pode checar para qual baralho os cartões estão indo mudando 
     de novo a opção Substituição de Baralho.
 
--   A opção 'Aparência do Navegador' te permite definir diferentes (talvez
+-   A opção 'Aparência do Navegador' permite definir diferentes (talvez
     simplificados) modelos para amostra nas colunas de Pergunta e Resposta
     do navegador; veja [aparência do navegador](templates/styling.md#browser-appearance) 
     para mais informações.
