@@ -1,11 +1,11 @@
-# Card Templates
+# Predefinições de Cartões
 
-Card templates tell Anki which fields should appear on the front and back of your card,
-and control which cards will be generated when certain fields have text in them.
-By adjusting your card templates, you can alter the design and styling of many of your
-cards at once.
+As prefininições de cartões contam ao Anki quais campos devem aparecer na frente e no
+verso do seu cartão e controlam quais cartões serão gerados quando certos campos têm texto.
+Ajustando suas predefinições de seus cartões, você pode alterar o design e o estilo de muitos
+dos seus cartões de uma vez só.
 
-Card templates are covered in some of the intro videos:
+Predefinições de cartões são explicadas em alguns dos vídeos introdutórios (em inglês) a seguir:
 
 -   [Switching Card
     Order](http://www.youtube.com/watch?v=DnbKwHEQ1mA&yt:cc=on)
