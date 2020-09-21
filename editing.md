@@ -16,11 +16,11 @@ quando baixou algum baralho compartilhado. O texto abaixo assume que o tipo de
 nota "Básico" está selecionado.
 
 No canto superior direito desta janela podemos ver em qual baralho os novos
-cartões serão adicionados. Se você quiser adicionar cartões à um novo baralho,
+cartões serão adicionados. Se você quiser adicionar cartões a um novo baralho,
 você precisa clicar no nome do baralho atualmente selecionado, e, então,
 pressionar o botão "Adicionar".
 
-Em baixo do tipo de nota, você verá alguns botões e uma área chamada "Frente" e
+Embaixo do tipo de nota, você verá alguns botões e uma área chamada "Frente" e
 "Verso". Frente e Verso são chamados 'campos', e você pode adicionar, remover ou
 renomear estes campos clicando no botão "Campos..." acima.
 
@@ -37,13 +37,13 @@ contêm o seguinte valor:
 
 Depois que você tiver adicionado algum texto nos campos Frente e Verso, você
 pode clicar no botão "Adicionar" ou apertar Ctrl+Enter (Command+Enter no Mac)
-para adicionar essa nota à sua coleção. Após isso, um cartão também será criado,
+para adicionar essa nota à sua coleção. Após isso, um cartão também será criado
 e colocado no baralho que você selecionou. Se você quiser editar um cartão já
 adicionado, pode clicar no botão "Histórico" para procurá-lo. O cartão
 selecionado abrirá no [navegador](browsing.md).
 
-O Anki verifica o primeiro campo por valores que sejam únicos. Dessa forma, ele irá
-te avisar caso você adicione dois cartões com o campo Frente contendo o texto
+O Anki verifica o primeiro campo por valores que sejam únicos. Dessa forma, ele
+irá avisar caso você adicione dois cartões com o campo Frente contendo o texto
 "maçã" (por exemplo). A verificação por unicidade é limitada ao atual tipo de
 nota selecionada. Portanto, se você estiver estudando vários idiomas, dois
 cartões com o mesmo texto no campo Frente não serão considerados duplicados
