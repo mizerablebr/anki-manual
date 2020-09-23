@@ -1,73 +1,82 @@
-Adding/Editing
+Adicionando/Editando
 ===============
 
-Adding Cards and Notes
+Adicionando Cartões e Notas
 ----------------------
 
-Recall from the [basics](getting-started.md) that in Anki we add notes rather than
-cards, and Anki creates cards for us. Click 'Add' in the main window,
-and the Add Notes window will appear.
+Lembre-se de que vimos na seção [Começando](getting-started.md) que no Anki nós
+adicionamos notas ao invés de cartões, e que ele mesmo se encarrega de adicionar
+esses cartões para a gente. Clique em 'Adicionar', na janela principal, e a
+janela Adicionar Notas irá aparecer.
 
-The top left of the window shows us the current note type. If it does
-not say “Basic,” then you may have added some note types when you
-downloaded a shared deck. The text below assumes that “Basic” is
-selected.
+No canto superior esquerdo desta janela podemos verificar qual tipo de nota
+está atualmente selecionada. Se estiver mostrando um outro tipo de nota que não
+o tipo "Básico", então você deve ter adicionado algum outro modelo de nota
+quando baixou algum baralho compartilhado. O texto abaixo assume que o tipo de
+nota "Básico" está selecionado.
 
-The top right of the window shows us the deck cards will be added to. If
-you’d like to add cards to a new deck, you can click on the deck name
-button and then click “Add”.
+No canto superior direito desta janela podemos ver em qual baralho os novos
+cartões serão adicionados. Se você quiser adicionar cartões a um novo baralho,
+você precisa clicar no nome do baralho atualmente selecionado, e, então,
+pressionar o botão "Adicionar".
 
-Below the note type, you’ll see some buttons, and an area labeled
-“Front” and “Back”. Front and Back are called 'fields', and you can add,
-remove and rename them by clicking the “Fields…​” button above.
+Embaixo do tipo de nota, você verá alguns botões e uma área chamada "Frente" e
+"Verso". Frente e Verso são chamados 'campos', e você pode adicionar, remover ou
+renomear estes campos clicando no botão "Campos..." acima.
 
-Below the fields is another area labelled “Tags”. Tags are labels that
-you can attach to your notes, to make organizing and finding notes
-easier. You can leave the tags blank if you wish, or add one or more of
-them. Tags are separated by a space. If the tags area says
+Abaixo dos campos existe uma outra área, chamada de "Etiquetas". Etiquetas são
+rótulos que você pode adicionar às suas notas, dessa forma tanto a tarefa de
+organizar a sua coleção quanto encontrar notas específicas fica mais fácil. Você
+pode deixar o campo de Etiquetas em branco se desejar, ou adicionar uma ou mais
+delas. Etiquetas são separadas por um espaço em branco. Se a área das etiquetas
+contêm o seguinte valor:
 
-    vocab check_with_tutor
+    vocabulário checar_com_o_professor
 
-…​then the note you add would have two tags.
+…então a nota que você adicionar terá duas etiquetas.
 
-When you’ve entered text into the front and back, you can click the
-“Add” button or press Ctrl+Enter (Command+Enter on a Mac) to add the
-note to your collection. When you do so, a card will be created as well,
-and placed into the deck you chose. If you’d like to edit a card you
-added, you can click the history button to search for a recently added
-card in the [browser](browsing.md).
+Depois que você tiver adicionado algum texto nos campos Frente e Verso, você
+pode clicar no botão "Adicionar" ou apertar Ctrl+Enter (Command+Enter no Mac)
+para adicionar essa nota à sua coleção. Após isso, um cartão também será criado
+e colocado no baralho que você selecionou. Se você quiser editar um cartão já
+adicionado, pode clicar no botão "Histórico" para procurá-lo. O cartão
+selecionado abrirá no [navegador](browsing.md).
 
-Anki checks the first field for uniqueness, so it will warn you if you
-enter two cards with a Front field of “apple” (for example). The
-uniqueness check is limited to the current note type, so if you’re
-studying multiple languages, two cards with the same Front would not be
-listed as duplicates as long as you had a different note type for each
-language.
+O Anki verifica o primeiro campo por valores que sejam únicos. Dessa forma, ele
+irá avisar caso você adicione dois cartões com o campo Frente contendo o texto
+"maçã" (por exemplo). A verificação por unicidade é limitada ao atual tipo de
+nota selecionada. Portanto, se você estiver estudando vários idiomas, dois
+cartões com o mesmo texto no campo Frente não serão considerados duplicados
+desde que você tenha diferentes tipos de notas para cada idioma.
 
-Anki doesn’t check for duplicates in other fields automatically for
-efficiency reasons, but the browser has a “Find Duplicates” function
-which you can run periodically.
+O Anki não checa, automaticamente, por duplicatas em outros campos por razões de
+eficiência, mas no navegador existe a função "Encontrar Duplicatas" que você
+pode executar de forma periódica.
 
-For more information on the buttons between the note type and the
-fields, please see the [editor](editing.md) section.
+Para mais informações quanto aos botões que estão entre o tipo de nota e os
+campos de texto, por favor veja a seção [editor](editing.md).
 
-Different people like to review in different ways, but there are some
-general concepts to keep in mind. An excellent introduction is [this
-article](http://www.supermemo.com/articles/20rules.htm) on the SuperMemo
-site. In particular:
+Pessoas diferentes gostam de revisar de maneiras diferentes, mas existem alguns
+conceitos gerais que devem ser mantidos em mente. Uma excelente introdução é
+[este artigo (em Inglês)](http://www.supermemo.com/articles/20rules.htm) no site do
+SuperMemo. Em particular:
 
--   **Keep it simple**: The shorter your cards, the easier they are to
-    review. You may be tempted to include lots of information “just in
-    case,” but reviews will quickly become painful.
+-   **Mantenha simples**: Quão mais sucintos forem os seus cartões,
+    mais fáceis eles serão para revisar. Talvez você seja tentado a
+    incluir várias e várias informações adicionais "só para o caso de
+    precisar no futuro", mas dessa forma as revisões rapidamente se
+    tornarão um fardo.
 
--   **Don’t memorize without understanding**: If you’re studying a
-    language, try to avoid large lists of words. The best way to learn
-    languages is in context, which means seeing those words used in a
-    sentence. Likewise, imagine you’re studying a computer course. If
-    you attempt to memorize the mountain of acronyms, you’ll find it
-    very difficult to make progress. But if you take the time to
-    understand the concepts behind the acronyms, learning the acronyms
-    will become a lot easier.
+-   **Não memorize se não entendeu**: Se você estiver estudando um
+    idioma, tente evitar longas listas de palavras. A melhor forma de
+    aprender um idioma é com o contexto, o que significa ver essas
+    palavras sendo usadas em uma frase. Semelhantemente, imagine que
+    você está estudando uma matéria de programação. Se você tentar
+    memorizar o mundo de acrônimos que existem de uma só vez, achará
+    que é muito difícil fazer progresso. Por outro lado, se você for
+    no seu ritmo, levando o tempo que for necessário para entender o
+    _conceito_ por trás desses acrônimos, o processo de aprendizagem
+    se tornará muito mais fácil.
 
 Adding a Note Type
 ------------------
