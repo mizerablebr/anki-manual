@@ -78,38 +78,40 @@ SuperMemo. Em particular:
     _conceito_ por trás desses acrônimos, o processo de aprendizagem
     se tornará muito mais fácil.
 
-Adding a Note Type
+Adicionando um Tipo de Nota
 ------------------
 
-While basic note types are sufficient for simple cards with only a word
-or phrase on each side, as soon as you find yourself wanting to include
-more than one piece of information on the front or back, it’s better to
-split that information up into more fields.
+Embora os tipos básicos de notas sejam suficientes para cartões simples com
+apenas uma palavra ou frase em cada lado, assim que você se encontrar querendo
+incluir mais do que uma informação na frente ou no verso, é melhor separar essas
+informações em múltiplos campos de texto.
 
-You may find yourself thinking "but I only want one card, so why can’t I
-just include the audio, a picture, a hint and the translation in the
-Front field?" If you’d prefer to do that, that’s fine. But the
-disadvantage of that approach is that all the information is stuck
-together. If you wanted to sort your cards by the hint, you wouldn’t be
-able to do that as it’s mixed in with the other content. You also
-wouldn’t be able to do things like move the audio from the front to the
-back, except by laboriously copying and pasting it for every note. By
-keeping content in separate fields, you make it much easier to adjust
-the layout of your cards in the future.
+Talvez você se pegue pensando "mas eu só quero um cartão, então por que
+simplesmente não incluo o áudio, uma imagem, uma dica e a tradução no campo
+Frente?". Bem, se você prefere fazer dessa maneira, ok. Mas a desvantagem desse
+método é que toda a informação está presa no mesmo lugar. Se você quisesse
+ordenar seus cartões pela dica, você não seria capaz de fazê-lo por que ela está
+misturada a outros conteúdos. Você também não seria capaz de fazer coisas como
+mover o áudio da frente para o verso do cartão, exceto pelo laborioso processo
+de copiar e colar essa informação para cada nota individualmente. Ao manter as
+informações em campos separados, você torna muito mais fácil o processo de
+ajustar o modelo dos seus cartões no futuro.
 
-To create a new type of note, choose Tools → Manage Note Types from the
-main Anki window. Then click “Add” to add a new type of note. You’ll now
-see another screen that gives you a choice of note types to base the new
-type on. “Add” means to base the newly created type on one that comes
-with Anki. “Clone” means to base the newly created type on one that is
-already in your collection. For instance, if you’d created a French
-vocab type already, you might want to clone that when creating a German
-vocab type.
+Para criar um novo tipo de nota, selecione, na tela principal do Anki,
+Ferramentas → Gerenciar Tipos de Notas. Após isso, clique em "Adicionar" para
+adicionar um novo tipo de nota. Você verá agora uma nova tela que apresenta
+tipos de notas preexistentes nas quais você pode se basear para criar o novo
+modelo desejado. "Adicionar" significa criar um novo tipo de nota com base em
+uma já existente por padrão no Anki. "Duplicar" significa criar um novo tipo de
+nota com base em uma já existente na sua coleção. Por exemplo, se você já
+tivesse criado o tipo de nota "Vocabulário - Francês", você poderia duplicá-lo
+caso desejasse, posteriormente, criar o tipo de nota "Vocabulário - Alemão".
 
-After choosing OK, you’ll be asked to name the new type. The subject
-material you’re studying is a good choice here – things like “Japanese”,
-”Trivia”, and so on. Once you’ve chosen a name, close the Note Types
-window, and you’ll return to the adding window.
+Depois de selecionar OK, você será perguntado sobre qual nome deseja dar ao novo
+tipo de nota. O assunto da matéria que você está estudando é uma boa escolha
+aqui - coisas como "Japonês", "Curiosidades", e assim por diante. Uma vez que
+tiver escolhido um nome, feche a janela Tipos de Notas, e você voltará à janela
+Adicionar.
 
 Customizing Fields
 ------------------
