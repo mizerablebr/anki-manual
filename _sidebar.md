@@ -2,7 +2,7 @@
 - [Antecedentes](background.md)
 - [Começando](getting-started.md)
 - [Estudando](studying.md)
-- [Adding/Editing](editing.md)
+- [Adicionando/Editando](editing.md)
 - [Card Templates](templates/intro.md)
  - [Field Replacements](templates/fields.md)
  - [Card Generation](templates/generation.md)
