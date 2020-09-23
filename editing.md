@@ -58,7 +58,7 @@ campos de texto, por favor veja a seção [editor](editing.md).
 
 Pessoas diferentes gostam de revisar de maneiras diferentes, mas existem alguns
 conceitos gerais que devem ser mantidos em mente. Uma excelente introdução é
-[este artigo](http://www.supermemo.com/articles/20rules.htm) no site do
+[este artigo (em Inglês)](http://www.supermemo.com/articles/20rules.htm) no site do
 SuperMemo. Em particular:
 
 -   **Mantenha simples**: Quão mais sucintos forem os seus cartões,
