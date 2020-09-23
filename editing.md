@@ -88,7 +88,7 @@ informações em múltiplos campos de texto.
 
 Talvez você se pegue pensando "mas eu só quero um cartão, então por que
 simplesmente não incluo o áudio, uma imagem, uma dica e a tradução no campo
-Frente?". Bem, se você prefere fazer dessa maneira, ok. Mas a desvantagem dessa
+Frente?". Bem, se você prefere fazer dessa maneira, ok. Mas a desvantagem desse
 método é que toda a informação está presa no mesmo lugar. Se você quisesse
 ordenar seus cartões pela dica, você não seria capaz de fazê-lo por que ela está
 misturada a outros conteúdos. Você também não seria capaz de fazer coisas como
