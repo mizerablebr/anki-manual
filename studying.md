@@ -14,188 +14,106 @@ Quando você clica em um baralho ele se tornará o 'baralho atual' e o Anki vai 
 
 Você pode pressionar o botão de engrenagem no lado direito do baralho para renomeá-lo, apagá-lo, mudar suas opções ou exportá-lo.
 
-Quando um baralho tem sub-baralhos, os cartões destes aparecerão conjuntos [cada baralho por vez](studying.md#display-order).
+Quando um baralho tem sub-baralhos, os cartões destes aparecerão conjuntos [cada baralho por vez](studying.md#ordem-de-exibição).
 
 Visão Geral do Estudo
 --------------
 
-After clicking on a deck to study, you’ll see a screen that shows you
-how many cards are due today. This is called the 'deck overview' screen.
-The cards are split into three types:
+Depois de clicar num baralho para estudá-lo, você verá uma tela que demonstra quantos cartões estão pendentes no dia de hoje. Isso é chamado de tela de 'visão geral'.
+Os cartões são divididos em três tipos:
 
--   **New** refers to cards that you have downloaded or entered in, but
-    have never been studied before.
+-   **Novo** refere-se aos cartões que você baixou ou inseriu, mas que nunca foram estudados antes.
+    
+-   **Estudando** faz referência aos cartões que foram vistos pela primeira vez recentemente e continuam sendo estudados.
+    
+-   **A rever** diz respeito aos cartões que foram previamente estudados e agora precisam ser revisados para que você não os esqueça.
 
--   **Learning** refers to cards that were seen for the first time
-    recently, and are still being learnt.
+Para iniciar uma sessão de estudo, clique no botão **Estudar Agora**. O Anki irá proceder para exibir-lhe cartões até que acabem aqueles a serem exibidos no dia.
 
--   **To Review** refers to cards that were previously learnt, and now
-    need to be reviewed so you don’t forget them.
+Enquanto estiver estudando, você pode retornar à visão geral ao pressionar a tecla “s” no seu teclado.
 
-To start a study session, click the **Study Now** button. Anki will
-proceed to show you cards until the cards to be shown for the day have
-run out.
-
-While studying, you can return to the overview by pressing the “s” key
-on your keyboard.
-
-Questions
+Questões
 ---------
 
-When a card is shown, only the question is shown at first. After
-thinking about the answer, either click the **Show Answer** button, or
-press the spacebar. The answer will then be shown. It’s okay if it takes
-you a little while to recall the answer, but as a general rule if you
-can’t answer within about 10 seconds, it’s probably better to give up
-and show the answer than keep struggling to remember.
+Quando um cartão é exibido, apenas a questão é apresentada primeiro. Depois de pensar sobre a resposta, você tanto pode clicar no botão **Mostrar Resposta**, quando pressionar a barra de espaço no teclado. A resposta então será exibida. Está tudo bem se você precisar de algum tempo para lembrar da resposta, mas via de regra se você não puder responder dentro de 10 segundos, provavelmente é melhor você desistir e exibir a resposta do que ficar sofrendo para recordá-la.
 
-When the answer is shown, you should compare the answer you thought of
-with the answer which is shown and tell Anki how well you remembered. If
-you don’t trust yourself to compare your answer accurately, you can ask
-Anki to [prompt you to type in the answer](templates/fields.md#checking-your-answer) rather than
-just showing it to you.
+Quando a resposta é apresentada, você deve comparar a resposta que você pensou com a resposta que foi exibida e informar ao Anki o qual bem você lembrou. Se você não tem confiança em comparar sua resposta com exatidão, você pode pedir que o Anki [solicite que você digite a resposta](templates/fields.md#checking-your-answer) ao invés de apenas exibir para você.
 
-The number of buttons available for grading depends on whether the card
-is being 'learnt' or 'reviewed'.
+O número de botões disponíveis para avaliar a resposta depende se o cartão está sendo 'aprendido' ou 'revisado'.
 
-Learning
+Aprendizagem
 --------
 
-When learning new cards, or when relearning cards that you have
-forgotten, Anki will show you the cards one or more times to help you
-memorize them. Each time is called a 'learning step'. By default there
-are two steps: 1 minute and 10 minutes. You can change the number of
-steps and the delays between them in the [deck options](deck-options.md).
+Seja aprendendo novos cartões, seja revisando cartões que você tenha esquecido, o Anki irá exibir os cartões uma ou mais vezes para ajudá-lo a memorizá-los. Cada passo desse é chamado de 'etapa de aprendizado'. Por padrão há duas etapas: 1 minuto e 10 minutos. Você pode mudar o número de etapas e o intervalo entre elas nas [opções do baralho](deck-options.md).
 
-There are three rating buttons when learning:
+Há três botões de classificação quando estiver estudando:
 
-**Again** moves the card back to the first step.
+**Errei** move o cartão de volta para a primeira etapa.
 
-**Good** moves the card to the next step. If the card was on the final
-step, the card is converted into a review card (it 'graduates'). By
-default, once the card has reached the end of the learning steps, the
-card will be shown again the next day, then at increasingly long delays
-(see the next section).
+**Bom** coloca o cartão na próxima etapa. Se o cartão já estiver na última etapa, então ele será convertido num cartão de revisão (ele é promovido). Por padrão, uma vez que o cartão tenha alcançado o fim das etapas de aprendizagem, o cartão será novamente exibido no próximo dia, e então sucessivamente em intervalos cada vez mais longos (veja a próxima seção).
 
-**Easy** immediately converts the card into a review card, even if there
-were steps remaining. By default, the card will be shown again 4 days
-later, and then at increasingly long delays. The easy button will not be
-shown if you are in relearning mode and it would give the same interval
-as “good.”
+**Fácil** o cartão é imediatamente convertido em cartão de revisão, mesmo que ainda lhe faltem etapas. Por padrão, o cartão será exibido novamente 4 dias mais tarde, e então em intervalos cada vez mais longos. O botão Fácil não será exibido se você estiver no modo recordação e ele dará o mesmo intervalo que o botão "Bom".
 
-When cards are seen for the first time, they start at step one. This
-means answering **Good** on a card for the first time will show it one
-more time in 10 minutes, and the initial 1 minute step will be skipped.
-If you push Again, though, the card will come back in 1 minute.
+Quando os cartões são vistos pela primeira vez, eles começam na primeira etapa. Isso quer dizer que ao responder  **Bom** a um cartão pela primeira vez, ele será exibido novamente em 10 minutos, e a etapa inicial de um minuto será saltada. Entretanto, de você pressionar Errei o cartão será exibido novamente em 1 minuto.
 
-You can use the 1, 2 and 3 keys on your keyboard to select a particular
-button, where 1 is **Again**. Pressing the spacebar will select
-**Good**.
+Você pode usar as teclas 1, 2 e 3 do seu teclado para selecionar um dos botões, onde 1 representa **Errei**. Pressionar a barra de espaço deu teclado irá selecionar **Bom**.
 
-If there are no other cards to show you, Anki will show learning cards
-again even if their delay has not elapsed completely. If you’d prefer to
-wait the full learning delay, you can change this behaviour in the
-[preferences](preferences.md).
+Se não houver cartões a serem exibidos para você, o Anki irá exibir novamente os cartões de aprendizado mesmo que o intervalo deles não tenha decorrido completamente. Se você preferir esperar o intervalo completo de aprendizado, você pode modificar esse comportamento nas [preferências](preferences.md).
 
-Reviewing
+Revisando
 ---------
 
-When a card has been previously learnt and is ready to be reviewed
-again, there are four buttons to rate your answer:
+Quando um cartão foi anteriormente aprendido e está pronto para ser revisado novamente, haverá quatro botões para avaliar sua resposta:
 
-**Again** marks your answer as incorrect and asks Anki to show the card
-more frequently in the future. The card is said to have 'lapsed'. Please
-see the [lapses](deck-options.md) section for more information about how lapsed
-reviews are handled.
+**Errei** marca sua resposta como incorreta e pede ao Anki que exiba o cartão com mais frequência no futuro. O cartão é considerado como 'falha' de memória. Por favor veja a seção [falhas](deck-options.md) para saber mais sobre como os cartões com falha são tratados.
 
-**Hard** shows the card at a slightly longer delay than last time, and
-tells Anki to show the card more frequently in the future.
+**Difícil** exibe o cartão num período um pouco menor de tempo do que da última vez, e diz ao Anki para exibí-lo mais frequentemente no futuro.
 
-**Good** tells Anki that the last delay was about right, and the card
-easiness doesn’t need to be adjusted down or up. At the default starting
-easiness, the card will be shown again approximately 2 1/2 times longer
-than the previous time, so if you had waited 10 days to see the card
-previously, the next delay would be about 25 days.
+**Bom** informa ao Anki que o último intervalo de tempo foi adequado e a facilidade do cartão não exige ajuste para mais ou para menos. No padrão inicial de facilidade, o cartão será exibido novamente 2,5 vezes mais tarde do que da vez anterior, de modo que caso tenha anteriormente esperado 10 dias para visualizar o cartão, da próxima vez a espera será por volta de 25 dias.
 
-**Easy** tells Anki you found the delay too short. The card will be
-scheduled further into the future than 'Good', and Anki will schedule
-the card less frequently in the future. Because 'Easy' rapidly increases
-the delay, it’s best used for only the easiest of cards. Usually you
-should find yourself answering 'Good' instead.
+**Fácil** diz ao Anki que você acho o intervalo muito curto. O cartão será agendado para um futuro mais distante do que quando escolhida o botão 'Bom', além de que no futuro o Anki irá agendar o cartão numa frequência menor. Pelo fato de 'Fácil' aumentar rapidamente o intervalo, ele é melhor utilizado apenas nos cartões mais fáceis. Ao invés dele, na maior parte do tempo você deve se encontrar respondendo 'Bom'.
 
-As with learning cards, you can use 1-4 on the keyboard to select an
-answer. Pressing the spacebar will select 'Good'.
+De igual modo como quando estudando os cartões, você pode utilizar os números de 1 a 4 do teclado para selecionar uma resposta. Pressionar a barra de espaço selecionará 'Bom'.
 
-Due Counts
+Contagem de Pendências
 ----------
 
-When only the question is shown, Anki shows three numbers like 12 + 34 +
-56 at the bottom of the screen. These represent the new cards, cards in
-learning, and cards to review. If you’d prefer not to see the numbers,
-you can turn them off in Anki’s preferences.
+Quando apenas a pergunta é exibida, o Anki exibe três números parecidos com 12 + 34 + 56 na parte inferior da tela. Eles representam a contagem de novos cartões, cartões sendo estudados e cartões a revisar. Se você preferir não ver esses números, você pode desativar-los nas preferências do Anki.
 
-In the old scheduler, the numbers count *reviews* needed to finish all the 
-cards in that queue, not the number of *cards*. If you have multiple
-steps configured for lapsed cards, the number will increase by more than 
-one when you fail a card, since that card needs to be shown several times.
+No agendador antigo, os números do contador de *revisão* denotam os cartões que precisam ser finalizados na fila, não o número total de *cartões*. Se você tiver múltiplas etapas configuradas para cartões com falha, o número irá crescer em mais de um quando você falhar um cartão, já que o cartão precisa ser exibido algumas vezes.
 
-In the new scheduler, the numbers count *cards*, so the number will always
-increase by one regardless of the steps remaining.
+No novo agendador, os números equivalem a *cartões*, então o número irá sempre crescer um por um, independentemente do número de etapas restantes.
 
-When the answer is shown, Anki shows an estimate of the next time a card
-will be shown above each button. If you’d prefer not to see the
-estimates, you can disable them in Anki’s [preferences](preferences.md).
+Quando a resposta é exibida, o Anki exibe uma estimativa de quando o cartão será exibido da próxima vez sobre cada um dos botões. Se você preferir não ver essas estimativas, você pode desabilitá-las nas [preferencias](preferences.md) do Anki.
 
-Anki additionally adds a small amount of random variation to the next
-due times, in order to prevent cards that were introduced together and
-always rated the same from always staying next to each other. This
-variation is not shown on the time estimates but will be applied after
-selecting the button.
+Além disso o Anki adiciona uma pequena quantidade de variação aleatória nos próximos períodos, isso para evitar que os cartões sejam introduzidos juntos e sempre avaliados da mesma forma por sempre estarem próximos uns dos outros. Essa variação não é exibida nos tempos estimados mas será aplicada depois da seleção do botão.
 
-Editing and More
+Editando e Mais
 ----------------
 
-You can click the **Edit** button in the bottom left to edit the current
-note. When you finish editing, you’ll be returned to study. The editing
-screen works very similarly to the [add notes](editing.md) screen.
+Você pode clicar no botão **Editar** na parte inferior esquerda para editar a nota atual. Quando terminar a edição, você retornará ao estudo. A tela de edição funciona semelhantemente à tela [Adicionar Notas](editing.md).
 
-At the bottom right of the review screen is a button labeled **More**.
-This button provides some other operations you can do on the current
-card or note:
+Na parte inferior direita da tela de revisão há um botão entitulado **Mais**.
+Este botão disponibiliza algumas outras operações que você pode fazer no cartão ou nota atuais:
 
-Mark Note  
-Adds a “marked” tag to the current note, so it can be easily found in
-the browser. This is useful when you want to take some action on the
-note at a later date, such as looking up a word when you get home.
-Marked cards also show a small star in the upper-right-hand corner
-during reviews.
+Marcar Nota  
+Adiciona uma etiqueta “marcado” à nota atual, de modo que seja mais fácil encontrá-la no navegador. Isso lhe será útil quando quiser fazer algo com a nota mais tarde, como procurar por uma palavra quando chegar em casa. Cartões marcados também exibem uma pequena estrela no canto extremo superior direito durante as revisões.
 
-Bury Card / Note  
-Hides a card or all of the note’s cards from review until the next day.
-(If you want to unbury cards before then, you can click the “unbury”
-button on the [deck overview](studying.md#study-overview) screen.) This is useful if
-you cannot answer the card at the moment or you want to come back to it
-another time. Burying can also [happen automatically](studying.md#siblings-and-burying) for
-cards of the same note. If cards were in learning when they are buried,
-they are moved back to the new card queue or review queue prior to being
-buried.
+Ocultar Cartão / Nota  
+Retira da revisão o cartão ou todos os cartões da nota até o próximo dia.
+(Se você quiser desocultar os cartões antes disso, você pode fazê-lo clicando no botão “desocultar” na parte inferior da tela de [Visão Geral do Baralho](studying.md#visão-geral-do-estudo).) É conveniente para quando você não pode responder o cartão naquele momento ou deseja voltar para ele numa outra ocasião. A ocultação também pode [acontecer automaticamente](studying.md#irmãos-e-ocultação) para cartões de uma mesma nota. Se cartões estiverem sendo aprendidos quando eles foram ocultados, eles são devolvidos para as filas "cartões novos" ou "revisão" antes de serem ocultados.
 
-Suspend Card / Note  
-Hides a card or all of the note’s cards from review until they are
-manually unsuspended (by clicking the suspend button in the browser).
-This is useful if you want to avoid reviewing the note for some time,
-but don’t want to delete it. If cards were in learning when they are
-suspended, they are moved back to the new card queue or review queue
-prior to being suspended.
+Suspender Cartão / Nota  
+Retira da revisão o cartão ou todos os cartões da nota até que eles sejam manualmente restabelecidos ( ao clicar no botão de suspender no navegador). É útil quando você tem interesse em deixar de revisar determinada nota por um tempo, mas não quer apagá-la. Se os cartões estiverem sendo aprendidos quando eles forem suspensos, eles serão devolvidos para as filas "cartões novos" ou "revisão" antes de serem suspensos.
 
-Delete Note  
-Deletes the note and all of its cards.
+Apagar Nota  
+Apaga a nota e todos os seus cartões.
 
-Options  
-Edit the options for the current deck.
+Opções  
+Edita as opções do baralho atual.
 
-Replay Audio  
-If the card has audio on the front or back, play it again.
+Repetir Audio  
+Se o cartão possui um áudio na frente ou no verso, toca ele novamente.
 
 Record Own Voice  
 Record from your microphone for the purposes of checking your
@@ -207,7 +125,7 @@ Replay Own Voice
 Replay the previous recording of your voice (presumably after showing
 the answer).
 
-Display Order
+Ordem de Exibição
 -------------
 
 Studying will show cards from the selected deck and any decks it
@@ -240,7 +158,7 @@ cards from ordered to random order, please see the [deck
 options](deck-options.md). For more fine-grained ordering of new cards, you
 can change the order in the [browser](browsing.md).
 
-Siblings and Burying
+Irmãos e Ocultação
 --------------------
 
 Recall from [the basics](getting-started.md) that Anki can create more than one
