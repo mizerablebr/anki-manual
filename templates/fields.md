@@ -30,8 +30,8 @@ O modelo padrão do verso seria assim:
 Isso quer dizer: “me mostre o texto que está na frente, depois uma barra
 divisora e logo após o campo do verso”.
 
-A parte do 'id=answer' fala pro Anki onde a barra divisora está entre a
-pergunta e a resposta. Isso faz com que o Anki automaticamente role a página até
+A parte do 'id=answer' fala pro Anki onde a divisão entre a
+pergunta e a resposta está. Isso faz com que o Anki automaticamente role a página até
 o ponto onde a resposta começa quando você aperta em 'mostrar resposta' em um cartão longo
 (isso é útil especialmente em dispositivos móveis com telas pequenas). Se você não
 quer uma linha horizontal no início da resposta, você pode usar
