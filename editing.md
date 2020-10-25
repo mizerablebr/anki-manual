@@ -1,8 +1,8 @@
 Adicionando/Editando
-===============
+====================
 
 Adicionando Cartões e Notas
-----------------------
+---------------------------
 
 Lembre-se de que vimos na seção [Começando](getting-started.md) que no Anki nós
 adicionamos notas ao invés de cartões, e que ele mesmo se encarrega de adicionar
@@ -79,7 +79,7 @@ SuperMemo. Em particular:
     se tornará muito mais fácil.
 
 Adicionando um Tipo de Nota
-------------------
+---------------------------
 
 Embora os tipos básicos de notas sejam suficientes para cartões simples com
 apenas uma palavra ou frase em cada lado, assim que você se encontrar querendo
@@ -114,7 +114,7 @@ tiver escolhido um nome, feche a janela Tipos de Notas, e você voltará à jane
 Adicionar.
 
 Personalizando Campos
-------------------
+---------------------
 
 Para personalizar campos, clique no botão "Campos…" quando estiver na janela de
 Adicionar ou Editar uma nota. Você também pode fazê-lo abrindo a janela
@@ -171,7 +171,7 @@ adicioná-los à Frente ou Verso dos seus cartões. Para mais informações quan
 isso, por favor veja a seção [modelos](templates/intro.md).
 
 Mudando o Baralho / Tipo de Nota
--------------------------
+--------------------------------
 
 Enquanto estiver adicionando cartões, você pode clicar no botão localizado no
 canto superior esquerdo para mudar o tipo de nota, e no botão do canto superior
@@ -180,7 +180,7 @@ você selecione o baralho ou tipo de nota como também permite adicionar novos
 baralhos e gerenciar suas notas atuais.
 
 Usando Baralhos de forma apropriada
--------------------------
+-----------------------------------
 
 Os baralhos são projetados para dividir seu conteúdo em categorias amplas que
 você deseja estudar separadamente, tais como Inglês, Química, e assim por
@@ -234,7 +234,7 @@ prova, caso esteja com matéria acumulada), etiquetas/campos e baralhos filtrado
 são um método melhor.
 
 Funcionalidades
---------
+---------------
 
 O editor é mostrado quando estiver [adicionando notas](editing.md),
 [editando-as](studying.md) durante as revisões, ou [navegando pelo
@@ -281,7 +281,7 @@ formatação. Porém, caso pressione a tecla shift enquanto cola, o Anki preserv
 mais da formatação do texto original.
 
 Omissão de Palavras
---------------
+-------------------
 
 'Omissão de palavras' é o processo de ocultar uma ou mais palavras em uma
 sentença. Por exemplo, se você tivesse a seguinte sentença:
@@ -372,7 +372,7 @@ personalizá-lo, por favor se certifique de clonar o tipo de nota já existente
 "omissão de palavras" ao invés dos outros tipos de notas disponíveis.
 
 Inserindo Caracteres Extrangeiros e Acentos
-----------------------------------------
+-------------------------------------------
 
 Todos os computadores modernos possuem suporte nativo para inserção de acentos e
 caracteres extrangeiros, e múltiplas formas de fazê-lo. O método que recomendamos
