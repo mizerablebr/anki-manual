@@ -1,69 +1,84 @@
-# Preferences
+Preferências
+============
 
-The preferences are available from the Tools menu on Windows/Linux, or
-the Anki menu on a Mac.
+O menu de preferências está disponível a partir do menu Ferramentas no
+Windows/Linux, ou no menu Anki caso seja um Mac.
 
-## Basic
+Básico
+------
 
-By default Anki pastes images on the clipboard as JPG files, to save
-disk space. You can use the **Paste clipboard images as PNG** option to
-paste as PNG images instead. PNG images support transparent backgrounds
-and are lossless, but they usually result in much larger file sizes.
+A primeira opção de seleção vertical controla em qual idioma estará a interface
+do Anki. Após selecionar um idioma, será necessário reiniciar o aplicativo para
+que as mudanças tenham efeito.
 
-When **night mode** is enabled, Anki will show cards as white text on a
-black background. Some card templates may need to be modified to work
-properly with this option enabled - please see [night mode
-styling](templates/styling.md#night-mode) for more information.
+Por padrão o Anki cola imagens da área de transferência como arquivos JPG, para
+salvar espaço em disco. Caso deseje colá-las como PNG é possível ativar a opção
+**Colar imagens da área de transferência como PNG**. Imagens em PNG suportam
+plano de fundo transparente e são imagens sem perda de definição, mas geralmente
+resultam em arquivos de tamanho maior.
 
-When using macOS in dark mode, recent Anki versions will automatically
-switch to night mode. If you want to force Anki to use light mode while
-using the rest of your system in dark mode, please install Anki
-2.1.21beta3 or later, and install the -alternate version rather than the
--standard one.
+Quando o **modo noturno*** estiver habilitado, o Anki mostrará o texto dos
+cartões em branco e o fundo em preto. Alguns modelos de cartões talvez precisem
+ser modificados para funcionar corretamente com essa opção habilitada. Por
+favor, veja [estilo modo noturno](templates/styling.md#night-mode) para mais
+informações.
 
-The **Anki 2.1 scheduler** is documented here:
-<https://anki.tenderapp.com/kb/anki-ecosystem/experiment-scheduling-changes-in-anki-21>
+Quando estiver usando o modo escuro em um Mac, versões recentes do Anki irão
+automaticamente mudar para o modo noturno. Se você quiser forçar o Anki a usar o
+modo claro enquanto estiver usando o modo escuro no restante do seu sistema
+operacional, por favor instale a versão 2.1.21beta3 ou superior do Anki, e
+instale a versão "-alternate" ao invés da "-standard".
 
-The first drop-down box controls how note types and decks interact. The
-default of "When adding, default to current deck" means that Anki saves
-the last-used note type for each deck and selects it again then next
-time you choose the deck (and, in addition, will start with the current
-deck selected when choosing Add from anywhere). The other option,
-"Change deck depending on note type," saves the last-used deck for each
-note type (and opens the add window to the last-used note type when you
-choose Add). This may be more convenient if you always use a single note
-type for each deck.
+O agendador do **agendador 2.1 do Anki** está documentado
+[aqui](https://anki.tenderapp.com/kb/anki-ecosystem/experiment-scheduling-changes-in-anki-21).
 
-The second drop-down box controls when new cards are shown: either mixed
-with, before, or after all reviews.
+A segunda opção de seleção vertical controla como os tipos de notas e os
+baralhos interagem. O padrão de "Ao criar, o padrão é o baralho atual" significa
+que o Anki irá salvar o último tipo de nota usado para cada baralho e
+selecioná-lo novamente a próxima vez que você escolher o baralho (e, além disso,
+a janela de adicionar cartões abrirá com o baralho atualmente selecionado). A
+outra opção, "Mudar baralho dependendo do tipo de nota", salva o último baralho
+utilizado para cada tipo de nota (e, ao abrir a janela de adicionar cartões,
+selecionará o último tipo de nota utilizado). Esta opção pode ser mais
+conveniente caso você sempre use um único tipo de nota para cada baralho.
 
-The **Next day starts at** option controls when Anki should start
-showing the next day’s cards. The default setting of 4AM ensures that if
-you’re studying around midnight, you won’t have two days' worth of cards
-shown to you in one session. If you stay up very late or wake up very
-early, you may want to adjust this to a time you’re usually sleeping.
+Agendamento
+-----------
 
-The **Learn ahead limit** tells Anki how to behave when there is nothing
-left to study in the current deck but cards in learning. The default
-setting of 20 minutes tells Anki that cards should be shown early if
-they have a delay of less than 20 minutes and there’s nothing else to
-do. If you set this to 0, Anki will always wait the full delay, showing
-the congratulations screen until the remaining cards are ready to be
-reviewed.
+A opção de seleção vertical da aba agendamento controla quando novos cartões
+serão mostrados: antes, depois ou misturados com os cartões de revisão.
 
-Timeboxing is a technique to help you focus by dividing a longer
-activity (such as a 30 minute study session) into smaller blocks. If you
-set the **timebox time limit** to a non-zero number of minutes, Anki
-will periodically show you how many cards you’ve managed to study during
-the prescribed time limit.
+A opção **Novo dia começa às** controla quando o Anki deve começar a mostrar os
+cartões do próximo dia. A configuração padrão é 4 horas além da meia noite
+(04:00 da manhã). Essa configuração assegura que, se você estiver estudando por
+volta da meia noite, você não terá a carga de trabalho de dois dias em uma única
+sessão de estudos. Se você fica acordado até muito tarde ou acorda muito cedo,
+talvez queira ajustar esse horário para um que melhor se ajuste ao horário que
+você costuma dormir.
 
-## Network
+A opção **Aprender além do limite** diz ao Anki como se comportar quando não
+houver mais nada para estudar no baralho atual exceto cartões em aprendizagem. A
+configuração padrão de 20 minutos diz ao Anki que cartões devem ser mostrados
+mais cedo caso possuam um intervalo menor do que 20 minutos. Se você selecionar
+o valor 0 (zero) para essa opção, o Anki sempre esperará o intervalo completo do
+cartão, mostrando a tela de parabéns até que os cartões restantes estejam
+prontos para serem revisados.
 
-The network tab contains options related to syncing with AnkiWeb.
+**Tempo limite** é uma técnica para te ajudar a permanecer focado, dividindo um
+longo tempo de atividade (digamos, uma sessão de estudos de 30 minutos) em
+blocos menores. Se você configurar um valor diferente de zero para essa opção, o
+Anki irá, periodicamente, mostrar quantos cartões você conseguiu estudar durante
+o tempo limite especificado.
 
-- When logged in, the **deauthorize** button will log you out.
-- When the 'force changes' option is enabled, the next sync will
-ask you whether you wish to upload or download. This is useful if
-you have made some changes accidentally, and wish to overwrite them
-with an older version that is on AnkiWeb.
+Rede
+----
+
+A aba de rede contém opções relacionadas à sincronização com a AnkiWeb. 
+
+- Quando estiver logado, o botão **desautorizar** irá deslogá-lo.
+- Quando a opção "Na próxima sincronização, obrigar mudanças em uma única
+  direção" estiver habilitada, a proxima sincronização irá pergutá-lo se você
+  deseja fazer upload ou download. Isso é útil caso você tenha feito alguma
+  mudança acidentalmente e deseja sobrescrevê-la com uma versão mais antiga que
+  está salva na AnkiWeb
 
