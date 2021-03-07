@@ -1,8 +1,8 @@
 Adicionando/Editando
-===============
+====================
 
 Adicionando Cartões e Notas
-----------------------
+---------------------------
 
 Lembre-se de que vimos na seção [Começando](getting-started.md) que no Anki nós
 adicionamos notas ao invés de cartões, e que ele mesmo se encarrega de adicionar
@@ -79,7 +79,7 @@ SuperMemo. Em particular:
     se tornará muito mais fácil.
 
 Adicionando um Tipo de Nota
-------------------
+---------------------------
 
 Embora os tipos básicos de notas sejam suficientes para cartões simples com
 apenas uma palavra ou frase em cada lado, assim que você se encontrar querendo
@@ -114,7 +114,7 @@ tiver escolhido um nome, feche a janela Tipos de Notas, e você voltará à jane
 Adicionar.
 
 Personalizando Campos
-------------------
+---------------------
 
 Para personalizar campos, clique no botão "Campos…" quando estiver na janela de
 Adicionar ou Editar uma nota. Você também pode fazê-lo abrindo a janela
@@ -171,7 +171,7 @@ adicioná-los à Frente ou Verso dos seus cartões. Para mais informações quan
 isso, por favor veja a seção [modelos](templates/intro.md).
 
 Mudando o Baralho / Tipo de Nota
--------------------------
+--------------------------------
 
 Enquanto estiver adicionando cartões, você pode clicar no botão localizado no
 canto superior esquerdo para mudar o tipo de nota, e no botão do canto superior
@@ -180,7 +180,7 @@ você selecione o baralho ou tipo de nota como também permite adicionar novos
 baralhos e gerenciar suas notas atuais.
 
 Usando Baralhos de forma apropriada
--------------------------
+-----------------------------------
 
 Os baralhos são projetados para dividir seu conteúdo em categorias amplas que
 você deseja estudar separadamente, tais como Inglês, Química, e assim por
@@ -233,176 +233,173 @@ dele, e, se você precisa apenas ocasionalmente estudá-lo separadamente (para u
 prova, caso esteja com matéria acumulada), etiquetas/campos e baralhos filtrados
 são um método melhor.
 
-Features
---------
+Funcionalidades
+---------------
 
-The editor is shown when [adding notes](editing.md), [editing a
-note](studying.md) during reviews, or [browsing](browsing.md).
+O editor é mostrado quando estiver [adicionando notas](editing.md),
+[editando-as](studying.md) durante as revisões, ou [navegando pelo
+painel](browsing.md).
 
-On the top left are two buttons, which open the [fields](editing.md#customizing-fields) and
-[cards](templates/intro.md) windows.
+No canto superior esquerdo existem dois botões, que abrem as janelas de
+[campos](editing.md#personalizando-campos) e [cartões](templates/intro.md).
 
-On the right are buttons that control formatting. Bold, italic and
-underline work like they do in a word processing program. The next two
-buttons allow you to subscript or superscript text, which is useful for
-chemical compounds like H<sub>2</sub>O or simple math equations like
-x<sup>2</sup>.
+No canto direito estão os botões que controlam a formatação de texto. Negrito,
+itálico e sublinhado funcionam da mesma forma que em qualquer outro programa de
+processamento de texto. Os próximos dois botões permitem que você coloque o
+texto em superscrito ou subscrito, o que é útil para compostos químicos como
+H<sub>2</sub>O ou equações matemáticas simples como x<sup>2</sup>.
 
-The Fx button clears any formatting in the currently selected text. This
-includes colours, bold, etc.
+O botão Fx remove qualquer formatação atualmente presente no texto selecionado.
+Isso inclui cores, negrito, etc.
 
-The next two buttons allow you to change text colour.
+Os próximos dois botões permitem que você mude a cor do texto.
 
-The \[…​\] button is visible when a cloze note type is selected.
+O botão \[…\] permite adicionar omissões de palavras. Note, entretanto, que para
+criar cartões que possuem essa funcionalidade, seu modelo de nota selecionado
+tem que estar configurado corretamente. Veja a seção de [omissão de
+palavras](editing.md#omissão-de-palavras) para mais informações.
 
-You can use the paperclip button to select audio, images and videos from
-your computer’s hard drive to attach to your notes. Alternatively, you
-can copy the media onto your computer’s clipboard (for instance, by
-right-clicking an image on the web and choosing 'Copy Image') and paste
-it into the field that you want to place it in. For more information
-about media, please see the [media](media.md) section.
+Você pode usar o botão com ícone de clipe de papel para selecionar áudios,
+imagens e vídeos do disco rígido do seu computador e adicionar às suas notas.
+Alternativamente, você pode copiar a mídia para a área de transferência (por
+exemplo, clicar com o botão direito em cima de uma imagem em um site da internet
+e escolher a opção 'Copiar Imagem') e colar esse conteúdo no campo que quiser.
+Para mais informações quanto a mídia, por favor veja a seção [mídia](media.md).
 
-The microphone icon allows you to record from your computer’s microphone
-and attach the recording to the note.
+O ícone de microfone permite que você grave áudio usando o microfone do seu
+computador e adicione-o à nota atual.
 
-The last button shows more advanced features, such as editing the
-underlying HTML of a field, and shortcuts to add MathJax or
-[LaTeX](math.md) to your notes.
+O último botão mostra funcionalidades mais avançadas, tais como editar o HTML
+que compõe um campo, e atalhos para adicionar MathJax ou [LaTeX](math.md) às
+suas notas.
 
-Most of the buttons have shortcut keys. You can hover the mouse cursor
-over a button to see its shortcut.
+A maioria dos botões possui atalhos de teclado. Você pode posicionar o cursor do
+mouse em cima de um botão para ver qual o atalho atrelado a ele.
 
-When pasting text, Anki will strip most formatting by default. If you
-hold down the shift key while pasting, Anki will preserve more
-formatting.
+Quando você colar textos, o Anki irá, por padrão, remover a maior parte da
+formatação. Porém, caso pressione a tecla shift enquanto cola, o Anki preservará
+mais da formatação do texto original.
 
-Cloze Deletion
---------------
+Omissão de Palavras
+-------------------
 
-'Cloze deletion' is the process of hiding one or more words in a
-sentence. For example, if you have the sentence:
+'Omissão de palavras' é o processo de ocultar uma ou mais palavras em uma
+sentença. Por exemplo, se você tivesse a seguinte sentença:
 
-    Canberra was founded in 1913.
+    Brasília foi fundada em 21 de Abril de 1960.
 
-…​and you create a cloze deletion on “1913”, then the sentence would
-become:
+…e omitisse o ano em que Brasília foi fundada, então sua sentença ficaria:
 
-    Canberra was founded in [...].
+    Brasília foi fundada em 21 de Abril de [...].
+    
+Para mais informações sobre o porquê de se usar omissões de palavras, veja a
+regra número 5 [aqui (em
+Inglês)](http://www.supermemo.com/articles/20rules.htm).
 
-Sometimes sections that have been removed in this fashion are said to be
-'occluded'.
+Para facilitar, o Anki já vêm por padrão com um tipo especial de nota que
+permite omitir palavras no formato acima mencionado. Para criar uma nota usando
+omissão de palavras, selecione o tipo de nota "Omissão de Palavras", e digite
+algum texto no campo chamado "Texto". Após isso, use o mouse para selecionar a
+parte do texto que você deseja ocultar, selecione-o e então clique no botão
+\[…​\]. O Anki irá substituir o texto usando este formato:
 
-For more information on why you might want to use cloze deletion, see
-rule number 5 [here](http://www.supermemo.com/articles/20rules.htm).
+    Brasília foi fundada em 21 de Abril de {{c1::1960}}.
+    
+A parte "c1" significa que você criou uma omissão de palavras. Você pode criar
+mais de uma se desejar. Por exemplo, se você selecionar Brasília e clicar no
+botão \[…​\] novamente, o texto agora ficará:
 
-Anki provides a special cloze deletion type of note, to make creating
-clozes easy. To create a cloze deletion note, select the Cloze note
-type, and type some text into the "Text" field. Then drag the mouse over
-the text you want to hide to select it, and click the \[…​\] button.
-Anki will replace the text with:
+    {{c2::Brasília}} foi fundada em 21 de Abril de {{c1::1960}}.
 
-    Canberra was founded in {{c1::1913}}.
+Quando você adicionar a nota acima, o Anki irá criar dois cartões. O primeiro
+cartão irá mostrar:
 
-The “c1” part means that you’ve created one cloze deletion on the
-sentence. You can create more than one deletion if you’d like. For
-example, if you select Canberra and click \[…​\] again, the text will
-now look like:
+    Brasília foi fundada em 21 de Abril de [...].
+    
+…na pergunta, e mostrará a frase completa na resposta. O outro cartão terá a
+seguinte pergunta:
 
-    {{c2::Canberra}} was founded in {{c1::1913}}.
+    [...] foi fundada em 21 de Abril de 1960.
 
-When you add the above note, Anki will create two cards. The first card
-will show:
+Também é possível ocultar múltiplas partes da frase no mesmo cartão. No exemplo
+acima, se você mudar "c2" por "c1", somente um cartão será criado, com ambos os
+textos "Brasília" e "1960" ocultos. Caso você pressione a tecla "Alt" ("Option"
+no Mac) enquanto estiver criando uma omissão de palavras, o Anki automaticamente
+usará o mesmo número ao invés de incrementá-lo.
 
-    Canberra was founded in [...].
+Omissões de palavra não precisam abranger a totalidade de uma palavra. Então, se
+você selecionar "rasília" ao invés de "Brasília" no exemplo acima, a pergunta
+aparecerá como "B\[…\] foi fundada em 21 de Abril de 1960", dando a você uma dica.
 
-…​on the question, with the full sentence on the answer. The other card
-will have the following on the question:
+Você também pode pode mostrar dicas que não correspondem exatamente ao texto. Se
+você trocar a sentença original por:
 
-    [...] was founded in 1913.
+    Brasília::A capital do Brasil foi fundada em 21 de Abril de 1960.
+    
+…e então pressionar \[…\] após selecionar "Brasília::A capital do Brasil", o
+Anki irá tratar o texto após os dois pontos duplos como uma dica, mudando o
+texto para:
 
-You can also elide multiple sections on the same card. In the above
-example, if you change c2 to c1, only one card would be created, with
-both Canberra and 1913 hidden. If you hold down alt (option on a Mac)
-while creating a cloze, Anki will automatically use the same number
-instead of incrementing it.
+    {{c1::Brasília::A capital do Brasil}} foi fundada em 21 de Abril de 1960.
 
-Cloze deletions don’t need to fall on word boundaries, so if you select
-“anberra” rather than “Canberra” in the above example, the question
-would appear as “C\[…​\] was founded in 1913”, giving you a hint.
+Quando o cartão aparecer para revisão, o texto aparecerá como:
 
-You can also give yourself hints that don’t match the text. If you
-replace the original sentence with:
+    [A capital do Brasil] foi fundada em 21 de Abril de 1960.
 
-    Canberra::city was founded in 1913
+Para informações sobre como testar sua habilidade de digitar omissões de
+palavras corretamente, por favor veja a seção [digitando respostas](templates/fields.md#checking-your-answer).
 
-…​and then press \[…​\] after selecting "Canberra::city", Anki will
-treat the text after the two colons as a hint, changing the text into:
+Por favor, note que sobrepor omissões de palavras é um recursos não suportado.
+Por exemplo, o seguinte campo é inválido:
 
-    {{c1::Canberra::city}} was founded in 1913
+    {{c1:Brasília foi fundada em 21 de {{c2::Abril}} de {{c3::1960}}}}.
 
-When the card comes up for review, it will appear as:
+Se você deseja criar omissões de palavaras de textos que se sobrepõe, adicione
+um outro campo de texto ao seu [tipo de nota](templates/intro.md), e, quando
+estiver criando as notas, cole o texto em dois campos separados, algo semelhante
+a:
 
-    [city] was founded in 1913.
+    Campo de Texto1: {{c1::Brasília foi fundada}} em 21 de Abril de 1960
+    Campo de Texto2: {{c2::Brasília}} foi fundada em 21 de Abril de 1960
 
-For information on testing your ability to type in a cloze deletion
-correctly, please see the section on [typing answers](templates/fields.md#checking-your-answer).
+O tipo de nota omissão de palavras padrão possui um segundo campo chamado Extra,
+que é mostrado no verso de cada cartao. Ele pode ser usado para adicionar
+informações adicionais, por exemplo.
 
-Please note that overlapping clozes are not supported. For example, the
-following field is invalid:
+O tipo de nota omissão de palavras é tratado de forma especial pelo Anki, e não
+pode ser criado com base em um tipo de nota comum. Se você deseja
+personalizá-lo, por favor se certifique de clonar o tipo de nota já existente
+"omissão de palavras" ao invés dos outros tipos de notas disponíveis.
 
-    {{c1::Canberra was {{c2::founded}}}} in 1913
+Inserindo Caracteres Extrangeiros e Acentos
+-------------------------------------------
 
-If you need to create clozes from overlapping text, add another Text
-field to your cloze, add it to the [template](templates/intro.md), and then when
-creating notes, paste the text into two separate fields, like so:
+Todos os computadores modernos possuem suporte nativo para inserção de acentos e
+caracteres extrangeiros, e múltiplas formas de fazê-lo. O método que recomendamos
+é usar o layout de teclado para o idioma que você deseja aprender.
 
-    Text1 field: {{c1::Canberra was founded}} in 1913
+Idiomas com caracteres diferentes como o Japonês, Chinês, Tailandês, e outros
+possuem o seu próprio layout específico para essa linguagem.
 
-    Text2 field: {{c2::Canberra}} was founded in 1913
+Idiomas europeus que usam acentos podem ter o seu próprio layout, mas podem
+geralmente ser digitados usando um layout de "teclado internacional".
 
-The default cloze note type has a second field called Extra, that is
-shown on the answer side of each card. It can be used for adding some
-usage notes or extra information.
+Para adicionar um layout de teclado internacional em computadores Windows, por
+favor veja <https://support.microsoft.com/en-au/kb/306560>.
 
-The cloze note type is treated specially by Anki, and cannot be created
-based on a regular note type. If you wish to customize it, please make
-sure to clone the existing Cloze type instead of another type of note.
-Things like formatting can be customized, but it is not possible to add
-extra card templates to the cloze note type.
+Para adicionar em um Mac OS X, por favor veja
+<http://www.macworld.com/article/1147039/os-x/accentinput.html>.
 
+Layouts de teclado para um idioma específico são adicionados de uma maneira
+semelhante, mas não temos condição de listar todos aqui. Para mais informações,
+por favor tente pesquisar por "digitar em Japonês no Mac", "digitar em Chinês no
+Windows 10", e assim por diante.
 
-Inputting Foreign Characters and Accents
-----------------------------------------
+Se você está aprendendo um idioma que se escreve da direita para a esquerda,
+existem várias outras questões a se considerar. Por favor, veja [esta página (em
+inglês)](http://dotancohen.com/howto/rtl_right_to_left.html) para mais informações.
 
-All modern computers have built in support for typing accents and
-foreign characters, and multiple ways to go about it. The method we
-recommend is using a keyboard layout for the language you want to learn.
-
-Languages with a separate script like Japanese, Chinese, Thai and so on
-have their own layouts specifically for that language.
-
-European languages that use accents may have their own layout, but can
-often by typed on a generic "international keyboard" layout. These work
-by typing the accent, then the character you want accented - eg an
-apostrophe (') then the letter a (a) gives á.
-
-To add the international keyboard on Windows machines, please see
-<https://support.microsoft.com/en-au/kb/306560>
-
-To add it on Macs, please see
-<http://www.macworld.com/article/1147039/os-x/accentinput.html>
-
-Keyboards for a specific language are added in a similar way, but we can
-not cover them all here. For more information, please try searching
-Google for "input Japanese on a mac", "type Chinese on Windows 10", and
-so on.
-
-If you’re learning a right to left language, there are lots of other
-things to consider. Please see [this
-page](http://dotancohen.com/howto/rtl_right_to_left.html) for more
-information.
-
-The toolkit Anki is built on has trouble dealing with a few input
-methods, such as holding down keys to select accented characters on Mac
-OS X, and typing characters by holding down the alt key and typing a
-numeric code on Windows.
+O toolkit que o Anki usa possue dificuldade em lidar com alguns métodos de
+inserção de caracteres, tais como pressionar teclas para selecionar caracteres
+com acento no Mac OS X, ou pressionar a tecla "Alt" e digitar um código
+numérico no Windows.
