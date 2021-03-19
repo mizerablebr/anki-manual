@@ -25,4 +25,4 @@
 - [Miscellaneous](misc.md)
 - [Contributing](contrib.md)
 - [FAQs](faqs.md)
-- [Resources](resources.md)
+- [Recursos](resources.md)
